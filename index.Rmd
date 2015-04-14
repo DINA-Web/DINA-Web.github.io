@@ -8,7 +8,7 @@ output: html_document
 The following services are currently available from DINA-Web:
 
 - <https://dina-web.net/loan>
-- <https://dina-web.net/loanadmin>
+- <https://dina-web.net/loan-admin>
 - <https://dina-web.net/inventory>
 - <https://dina-web.net/dnakey>
 - <https://dina-web.net/naturarv>
