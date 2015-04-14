@@ -1,0 +1,19 @@
+---
+title: "Welcome to DINA-Web"
+output: html_document
+---
+
+![DINA-Web Logo](http://www.dina-project.net/w/media/thumb/1/14/DINALogo.png/272px-DINALogo.png)
+
+The following services are currently available from DINA-Web:
+
+- <https://dina-web.net/loan>
+- <https://dina-web.net/loanadmin>
+- <https://dina-web.net/inventory>
+- <https://dina-web.net/dnakey>
+- <https://dina-web.net/naturarv>
+
+- <https://issues.dina-web.net>
+
+
+
