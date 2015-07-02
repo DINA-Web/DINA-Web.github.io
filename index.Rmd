@@ -1,12 +1,19 @@
 ---
-title: "Welcome to DINA-Web"
-output: html_document
+title:
+output: 
+  html_document:
+      theme: spacelab
+      highlight: default
+
 ---
 
 ![DINA-Web Logo](http://www.dina-project.net/w/media/thumb/1/14/DINALogo.png/272px-DINALogo.png)
 
-The following services are currently available from DINA-Web:
+### Currently available services
 
+The following services are currently available:
+
+- <https://dina-web.net/naturalist>
 - <https://dina-web.net/loan>
 - <https://dina-web.net/loan-admin>
 - <https://dina-web.net/inventory>
@@ -15,5 +22,13 @@ The following services are currently available from DINA-Web:
 
 - <https://issues.dina-web.net>
 
+## Guidelines and principles of construction
 
+Here are information about various guidelines and principles of construction that inspire and guide the construction, design and future development of `DINA-Web`:
 
+- [Functional guidelines - API design guidelines](https://github.com/DINA-Web/dina-api-standard)
+- [Style guidelines - Visual design guidelines](style.html)
+- [Licensing guidelines](
+- [Data exchange guidelines - Import and export of data](https://github.com/DINA-Web/batch-import)
+
+Please feel free to [join and participate](http://www.dina-project.net/wiki/Welcome_to_the_DINA_project!) in evolving the `DINA` system!
