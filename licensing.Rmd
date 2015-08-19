@@ -12,13 +12,13 @@ This is a first draft outline for a document outlining __guidelines for recommen
 
 For **code**, choose a well-known and widely used open source license - we suggeset either **Affero GPL, MIT or Apache license** and then add a LICENSE file to your project's root directory with the license text. 
 
-For **data or content**, use an appropriate **Creative Commons v 4 license** or in the case of data in the public domain, use the CC0 license.
+For **data or content**, use an appropriate **Creative Commons v 4 license** or in the case of data in the public domain, use the **CC0 license**.
+
+Contributions to the project (either code or data) do not require transfer of copyright ownership.
 
 ## Source code licenses
 
-To simplify sharing and collaboration within the DINA consortium we require an OSS license to be applied. Choosing an open source software license does not need to be scary. Here is an excellent resource to guide when choosing what license to use: <http://choosealicense.com/>
-
-Choose an open source license, preferably one of the bigger and more well-known and frequently used ones:
+To simplify sharing and collaboration within the DINA consortium we require an OSS license to be applied. Choosing an open source software license does not need to be scary. Here is an excellent resource to guide when choosing what license to use: <http://choosealicense.com/>, use it to choose an open source license, preferably one of the bigger and more well-known and frequently used ones:
 
 - [Affero GPL license](http://choosealicense.com/licenses/agpl-3.0/) - this is a GNU Public License (the most widely used free software license) v 3 type license, which requires users to become contributors and share their improvements back to the community. It covers also web applications, applications "used over a network", thus closing the so called "Application Service Provider loophole" of GPL v 2.
 - [MIT license](http://choosealicense.com/licenses/mit/) - simple and permissive, provides attribution and users cannot hold you liable

@@ -32,3 +32,4 @@ Here are information about various guidelines and principles of construction tha
 - [Data exchange guidelines - Import and export of data](https://github.com/DINA-Web/batch-import)
 
 Please feel free to [join and participate](http://www.dina-project.net/wiki/Welcome_to_the_DINA_project!) in evolving the `DINA-Web` system!
+

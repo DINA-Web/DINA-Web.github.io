@@ -29,6 +29,8 @@ It will be used in various settings where DINA User Interfaces exist or are refe
 - documentation
 - various other media
 
+The DINA Technical Committee will consider providing style specifications and other compatibility details about software in reports, otherwise, users would discover these issues only after installing and using applications.
+
 ## Requirements for visual elements
 
 To work well, some requirements have been identified for the DINA visual style. With those requirements, as suggested below, documents on the web (html etc such as this document), web slides (using ioslides etc) and desktop slides (using ppt, libre office impress etc) as well as other documents (word, libre office etc) can be created in exactly the same style regardless of underlying OS, with no license fees or costs required.
@@ -51,9 +53,7 @@ An example of a set of fonts that would fullfil these requirements are these fon
 
 The license that applies for these fonts: <http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL>
 
-
-
-There is also Google Noto with great support across cultures/languages, probably better than the "Source" fonts, but it is available in sans serif only and therefore not available across the three main font styles: serif/sans-serif/fixed styles. A great candidate for web apps / across digital devices including mobiles but not perhaps equally good transmedially, ie across all media (printed matter, console apps etc).
+There is also Google Noto with great support across cultures/languages, probably better than the "Source" fonts, but it is currently available in sans serif only and therefore not available across the three main font styles: serif/sans-serif/fixed styles. A great candidate for web apps / across digital devices including mobiles but not perhaps equally good transmedially, ie across all media (printed matter, console apps etc).
 
 ### Color schemes
 
@@ -87,7 +87,7 @@ For a more detailed check, tools like [Vischeck](http://www.vischeck.com/vischec
 
 For logo, use the assets at <https://github.com/DINA-Web/dina_logo>.
 
-TODO: add license that applies  
+TODO: add license that applies
 
 TODO: add information about font used
 
