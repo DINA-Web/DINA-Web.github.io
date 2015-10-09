@@ -6,6 +6,11 @@ output:
     theme: spacelab
     highlight: default
 ---
+<!--
+  \usepackage[utf8]{inputenc}
+<link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+<link rel='icon' type='image/-icon' href='favicon.ico' />"
+-->
 
 
 <!--
@@ -14,11 +19,14 @@ theme specifies the Bootstrap theme to use for the page (themes are drawn from t
 highlight specifies the syntax highlighting style. Supported styles include "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn", "haddock", and "textmate". Pass null to prevent syntax highlighting.
 -->
 
+
 ![DINA logo](figures/dina-web-logo-horizontal.png)
 
 ## Guidelines for a consistent DINA visual style
 
-The DINA style is an important way to create cohesion between DINA modules that expose user interfaces. The graphical profile or "DINA style" enables unifying look and feel across components visually regardless of origin, technology stacks or techniques for implementation. 
+> Version 1.0, endorsed by the DINA Steering Committee 2015-09-02
+
+The DINA style is an important way to create cohesion across DINA modules that expose user interfaces. The graphical profile or “DINA style” enables a unified visual look and feel across components regardless of origin, technology stacks or implementation techniques.
 
 It will be used in various settings where DINA User Interfaces exist or are referenced, such as:
 
@@ -29,37 +37,41 @@ It will be used in various settings where DINA User Interfaces exist or are refe
 - documentation
 - various other media
 
-The DINA Technical Committee will consider providing style specifications and other compatibility details about software in reports, otherwise, users would discover these issues only after installing and using applications.
-
 ## Requirements for visual elements
 
-To work well, some requirements have been identified for the DINA visual style. With those requirements, as suggested below, documents on the web (html etc such as this document), web slides (using ioslides etc) and desktop slides (using ppt, libre office impress etc) as well as other documents (word, libre office etc) can be created in exactly the same style regardless of underlying OS, with no license fees or costs required.
+For a product (web interface, slide, document etc.) to comply with the DINA visual style, it needs to meet the requirements outlined below. 
+
+### Transmedial style harmonization
+
+The requirements have been designed so that documents on the web (html etc such as this document), web slides (using ioslides etc) and desktop slides (using ppt, libre office impress etc) as well as other documents (word, libre office etc) can all be created in the same style regardless of underlying OS, and without incurring any license fees or other costs.
 
 ### Accessibility
 
-An important aspect is that the style or "graphical profile" should support good accessibility, in particular for web content, and therefore web content should conform as much as possible with the [W3C guidelines for web content accessibility](http://www.w3.org/TR/WCAG20/).
+An important aspect is that the style or "graphical profile" should support good accessibility, in particular for web content, and therefore web content should conform as much as possible with the [W3C guidelines for web content accessibility](http://www.w3.org/TR/WCAG20/). 
+
+The accessibility of Web content should be tested using tools such as <http://wave.webaim.org> and <http://achecker.ca/checker/index.php>
 
 ### Fonts
 
 - A serif, a sans serif and a fixed width "console font" should be part of the style. Those three types of fonts should harmonize.
 - Web fonts and TTF versions should exist (or be possible to create) for use on Windows, Linux, Mac providing same appearance regardless of OS used
-- For font used a free, libre and open source license is required
+- A free, libre and open source license is required for the fonts used
 
-An example of a set of fonts that would fullfil these requirements are these fonts selected from the Google Web Fonts:
+A suggested set of fonts that would fullfil these requirements are these fonts selected from the Google Web Fonts tool (another good font selection tool is <http://fontcdn.org/>):
 
 - [Source Sans Pro](http://www.google.com/fonts/specimen/Source+Sans+Pro)  
 - [Source Serif Pro](http://www.google.com/fonts/specimen/Source+Serif+Pro)  
 - [Source Code Pro](http://www.google.com/fonts/specimen/Source+Code+Pro)  
 
-The license that applies for these fonts: <http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL>
+The license that applies for these fonts is available here: <http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL>
 
-There is also Google Noto with great support across cultures/languages, probably better than the "Source" fonts, but it is currently available in sans serif only and therefore not available across the three main font styles: serif/sans-serif/fixed styles. A great candidate for web apps / across digital devices including mobiles but not perhaps equally good transmedially, ie across all media (printed matter, console apps etc).
+There is also Google Noto with great support across cultures/languages, probably better than the "Source" fonts, but it is currently available in sans serif only and therefore not available across the three main font styles: serif/sans-serif/fixed styles. Thus it is a great candidate for web apps / across digital devices including mobiles but not perhaps equally good transmedially, ie across all media (including printed matter, console apps etc).
 
 ### Color schemes
 
-It is very easy to get colors wrong. It is perhaps more important to avoid the worst pitfalls than aiming at acheiving perfection. 
+It is very easy to get colors wrong. It is perhaps more important to avoid the worst pitfalls than aiming at achieving perfection. 
 
-Very good guidance when choosing colors that can be perceived clearly is provided by tools like [ColorBrewer 2](http://colorbrewer2.org).
+Very good guidance when choosing colors that can be perceived clearly is provided by the tool [ColorBrewer 2](http://colorbrewer2.org).
 
 - For colors used, a harmonized and clearly perceivable selection of colors is required
 - No more than 7 steps and never more than 2 hues (if multihued) may be used
@@ -67,7 +79,7 @@ Very good guidance when choosing colors that can be perceived clearly is provide
 
 With these requirements, the colors used in the DINA style will be guaranteed to be clearly perceived by most audiences across most media.
 
-An example of a color profile that meets the above criteria is the following:
+A suggested color profile that meets the above criteria is the following:
 
 <font color="#ffffcc">█</font>
 <font color="#d9f0a3">█</font>
@@ -83,25 +95,23 @@ A simple way to check that colors used make sense and can be distinguished is to
 
 For a more detailed check, tools like [Vischeck](http://www.vischeck.com/vischeck/) can be used to simulate how various kinds of color-blindness would affect perceptions of colors used in an image.
 
-### Logo
+### Logo and favicons
 
 For logo, use the assets at <https://github.com/DINA-Web/dina_logo>.
 
-TODO: add license that applies
-
-TODO: add information about font used
+For icons showing in browser tabs or used for pinning apps, please refer to .ico files in the same directory.
 
 ### Stylesheets for web applications
 
-For cross-device responsive web user interfaces, a clean, simple responsive stylesheet along the lines of Twitter Boostrap v 3 would be useful to be able to achive the same look and feel on an Android / iPhone / Ubuntu Touch mobile app as on a Linux / Mac / Win web browser.
+For cross-device responsive web user interfaces, we recommend using Twitter Boostrap as a clean, simple responsive style sheet resulting in the same look and feel on an Android / iPhone / Ubuntu Touch mobile app as on a Linux / Mac / Win web browser.
 
-For example, we could be using `MIT-licensed BootsWatch themes`... - compatible with SASS, LESS, CSS and perhaps initially simply just converging on using the ["Spacelab theme"](http://bootswatch.com/spacelab/) for starters. Note that this particular markdown document uses this "Spacelab" theme, when rendered to HTML.
+We suggest using the `MIT-licensed BootsWatch themes`... — compatible with SASS, LESS, CSS — specifically the "Spacelab theme" available here: <http://bootswatch.com/spacelab/>. Note that this particular markdown document uses this theme when rendered to HTML.
 
-With some more effort, **a customized "DINA UI Theme" could be created** that complies with `bootswatch` and that use the above color and font requirements.
+A more ambitious alternative which would require additional design work and customizations, is to create **a customized "DINA UI Theme"**. The `bootswatch` styles above can be extended with a custom DINA-Web style, making even greater effort to harmonize with the color and font requirements outlined earlier. 
 
 ### CLI tools
 
-We could recommend that VMs or other DINA components available through the CLI signal style though using a a banner like this. For CLI applications that for example migrate data or other tools, it should be perhaps be possible to get rid of the banner with a switch, to silence it. For example:
+We recommend that VMs or other DINA components available through the CLI signal that they are part of the DINA system by using a CLI banner as exemplified below. For applications that are used mainly or only from a CLI, for example data migration tools, users should be able to get rid of the banner with a switch that will silence it. DINA-style compliant CLI banner example:
 
 ```{r echo=TRUE, message=FALSE, results='asis'}
 # Deps: www.figlet.org / sudo apt-get install figlet / R
