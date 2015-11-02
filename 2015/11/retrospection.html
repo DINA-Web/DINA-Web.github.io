@@ -1,0 +1,248 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Retrospection</title>
+    
+    <meta name="author" content="DINA-Web">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+      <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/spacelab/bootstrap.min.css" rel="stylesheet">
+    
+
+    <!--[if lt IE 9]>
+      <script src="/assets/themes/bootswatch/resources/respond/Respond.min.js"></script>
+    <![endif]-->
+
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">DINA-Web Blog</a>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+            
+
+
+  
+    
+      
+      	
+      	<li><a href="/about/">About</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/archive.html">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories.html">Categories</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/guidelines/">Guidelines</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/pages.html">Pages</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/progress/">Progress</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags.html">Tags</a></li>
+      	
+      
+    
+  
+
+
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      
+<div class="page-header">
+  <h1>Retrospection </h1>
+</div>
+
+<div class="row post-full">
+  <div class="col-md-12">
+    <div class="date">
+      <span>02 November 2015</span>
+    </div>
+    <div class="content">
+      <h1 id="in-the-back-mirror">In the back mirror</h1>
+
+<p>A workshop in Stockholm about a year ago, where teams from Canada, Estonia, Sweden, Denmark and representatives from the UK met up physically at the Swedish Museum for Natural History. Some materials from that workshop is on record here:</p>
+
+<ul>
+  <li><a href="http://rpubs.com/mskyttner/dina-web">http://rpubs.com/mskyttner/dina-web</a></li>
+  <li><a href="http://rpubs.com/mskyttner/setf">http://rpubs.com/mskyttner/setf</a></li>
+  <li><a href="http://rpubs.com/mskyttner/tdwg-2014-dina-web">http://rpubs.com/mskyttner/tdwg-2014-dina-web</a></li>
+</ul>
+
+<h1 id="summarizing">Summarizing</h1>
+
+<ul>
+  <li>
+    <p>One Rule / Rule One - <strong>Web UIs</strong> should get their data through Web services using <strong>versioned and documented</strong> Web APIs.</p>
+  </li>
+  <li>
+    <p>Open Licenses for Code and Content.</p>
+  </li>
+</ul>
+
+<h1 id="the-diff-since-then">The “diff” since then</h1>
+
+<ul>
+  <li>Guidelines in place (for Web APIs, Web UI style, licensing) and tools for assessing Accessibility and Security </li>
+  <li>New logo and updated Poster presented at TDWG</li>
+  <li>Modules progress - including the CLI tool Collections Batch Tool for data import / export, seqdb, media</li>
+</ul>
+
+<h1 id="looking-forward">Looking forward</h1>
+
+<ul>
+  <li>User SSO module - suggesting to use keycloak.org to provide SSO and mgm of Users and their roles and permissions</li>
+  <li>DINA-Specify module API getting ready to be released</li>
+  <li>Vagrant and Docker files packaging the the DINA-Web system</li>
+</ul>
+
+<h1 id="web-api-strategy">Web API strategy</h1>
+
+<blockquote>
+  <p>We plan to avoid a monolithic architecture by breaking the whole system into separate smaller modules that provide access to their data over web APIs and which links to related data in other modules using persistent identifiers. </p>
+</blockquote>
+
+<p>The idea is to use a Web API strategy - to open up and counter monolithic character of legacy systems. The Web API strategy is expected to enable and simplify improvements, maintenance and refactoring.</p>
+
+<p>The first step is to make sure all client calls go over versioned and documented web APIs to server components, rather than “directly to db”. </p>
+
+<p>After this step, it will be possible to “divide and conquer” in the areas where this is needed, ie it becomes possible to refactor and make changes behind the “API wall” without breaking clients.</p>
+
+    </div>
+
+    
+
+    
+
+    <hr>
+    
+    <ul class="pagination">
+      
+        <li class="prev"><a href="/2015/11/copenhagen-agenda.html" title="Copenhagen Agenda">&larr; Previous</a></li>
+      
+        <li><a href="/archive.html">Archive</a></li>
+      
+        <li class="next disabled"><a>Next &rarr;</a>
+      
+    </ul>
+    <hr>
+    
+
+
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_developer = 1;
+    var disqus_shortname = 'jekyllbootstrap'; // required: replace example with your forum shortname
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+
+  </div>
+</div>
+
+
+      <hr>
+      <footer>
+        <p>
+          &copy; 2015 DINA-Web
+          <span class="pull-right text-muted">
+            powered by
+            <a href="http://dbtek.github.io/jekyll-bootstrap-3" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll-Bootstrap-3</a>
+            and <a href="http://bootswatch.com" target="_blank">Bootswatch</a>
+          </span>
+        </p>
+      </footer>
+    </div>
+
+    
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
+</html>
+

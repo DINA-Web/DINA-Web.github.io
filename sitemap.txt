@@ -1,8 +1,23 @@
----
-# Remember to set production_url in your _config.yml file!
-title : Sitemap
----
-{% for page in site.pages %}
-{{site.production_url}}{{ page.url }}{% endfor %}
-{% for post in site.posts %}
-{{site.production_url}}{{ post.url }}{% endfor %}
+
+https://blog.dina-web.net/about/
+https://blog.dina-web.net/archive.html
+https://blog.dina-web.net/atom.xml
+https://blog.dina-web.net/categories.html
+https://blog.dina-web.net/guidelines/
+https://blog.dina-web.net/index.html
+https://blog.dina-web.net/pages.html
+https://blog.dina-web.net/progress/
+https://blog.dina-web.net/rss.xml
+https://blog.dina-web.net/sitemap.txt
+https://blog.dina-web.net/tags.html
+
+https://blog.dina-web.net/2015/11/retrospection.html
+https://blog.dina-web.net/2015/11/copenhagen-agenda.html
+https://blog.dina-web.net/2015/10/tdwg-poster.html
+https://blog.dina-web.net/2015/10/web-api-strategy.html
+https://blog.dina-web.net/2015/10/infrastructure.html
+https://blog.dina-web.net/2015/10/blueprints.html
+https://blog.dina-web.net/2015/10/troubleshooting.html
+https://blog.dina-web.net/2015/10/loan-requests.html
+https://blog.dina-web.net/2015/10/contributor-bios.html
+https://blog.dina-web.net/2015/10/state-of-the-union.html
