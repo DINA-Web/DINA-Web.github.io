@@ -14,7 +14,7 @@
     
 
     <!--[if lt IE 9]>
-      <script src="/assets/themes/bootswatch/resources/respond/Respond.min.js"></script>
+      <script src="/assets/themes//resources/respond/Respond.min.js"></script>
     <![endif]-->
 
     <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
@@ -54,7 +54,7 @@
     
       
       	
-      	<li><a href="/archive.html">Archive</a></li>
+      	<li><a href="/archive">Archive</a></li>
       	
       
     
@@ -66,7 +66,7 @@
     
       
       	
-      	<li><a href="/categories.html">Categories</a></li>
+      	<li><a href="/categories">Categories</a></li>
       	
       
     
@@ -86,7 +86,7 @@
     
       
       	
-      	<li><a href="/pages.html">Pages</a></li>
+      	<li><a href="/pages">Pages</a></li>
       	
       
     
@@ -110,7 +110,7 @@
     
       
       	
-      	<li><a href="/tags.html">Tags</a></li>
+      	<li><a href="/tags">Tags</a></li>
       	
       
     
@@ -137,24 +137,24 @@
       <h1 id="what-is-the-strategy-used-in-dina-developments">What is the strategy used in DINA developments?</h1>
 
 <blockquote>
-  <p>We hope to avoid a monolithic architecture by breaking the whole system into separate smaller modules that provide access to their data over web APIs and which links to related data in other modules using persistent identifiers. </p>
+  <p>We hope to avoid a monolithic architecture by breaking the whole system into separate smaller modules that provide access to their data over web APIs and which links to related data in other modules using persistent identifiers.</p>
 </blockquote>
 
 <p>The idea is to use a Web API strategy - to open up and counter monolithic character of legacy systems. The Web API strategy is expected to enable and simplify improvements, maintenance and refactoring.</p>
 
-<p>The first step is to make sure all client calls go over versioned and documented web APIs to server components, rather than “directly to db”. </p>
+<p>The first step is to make sure all client calls go over versioned and documented web APIs to server components, rather than “directly to db”.</p>
 
 <p>After this step, it will be possible to “divide and conquer” in the areas where this is needed, ie it becomes possible to refactor and make changes behind the “API wall” without breaking clients.</p>
 
 <h1 id="nb-of-significant-end-user-importance">NB: Of Significant End-User Importance</h1>
 
-<p>End users will not see or use the web APIs directly. Instead a harmonized visual look and feel with similar interaction paradigms that don’t differ too much across UI components is needed. </p>
+<p>End users will not see or use the web APIs directly. Instead a harmonized visual look and feel with similar interaction paradigms that don’t differ too much across UI components is needed.</p>
 
 <p>If UI components could agree to harmonize on use of a stylesheet such as that offered in http://bootswatch.com/spacelab/, immediately a signficant step towards cohesion across components would have been taken. This is a highly visible step for the whole DINA package of software components and one which adds significant end user value for a relatively small change - switching stylesheet.</p>
 
 <h1 id="defining-the-road-map">Defining the Road Map</h1>
 
-<p>Knowing the gaps, overlaps, pain points and strength of existing systems will help considerably when finding creating and evolving a good set of web APIs for managing DIgital NAtural History Museum collections. </p>
+<p>Knowing the gaps, overlaps, pain points and strength of existing systems will help considerably when finding creating and evolving a good set of web APIs for managing DIgital NAtural History Museum collections.</p>
 
 <h2 id="learning-from-existing-web-apis">Learning from existing web APIs</h2>
 

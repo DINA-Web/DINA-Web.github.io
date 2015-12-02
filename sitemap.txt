@@ -1,16 +1,18 @@
 
 https://blog.dina-web.net/about/
-https://blog.dina-web.net/archive.html
+https://blog.dina-web.net/archive
 https://blog.dina-web.net/atom.xml
-https://blog.dina-web.net/categories.html
+https://blog.dina-web.net/categories
 https://blog.dina-web.net/guidelines/
-https://blog.dina-web.net/index.html
-https://blog.dina-web.net/pages.html
+https://blog.dina-web.net/
+https://blog.dina-web.net/pages
 https://blog.dina-web.net/progress/
 https://blog.dina-web.net/rss.xml
 https://blog.dina-web.net/sitemap.txt
-https://blog.dina-web.net/tags.html
+https://blog.dina-web.net/tags
 
+https://blog.dina-web.net/2015/11/efforts.html
+https://blog.dina-web.net/2015/11/pinatas.html
 https://blog.dina-web.net/2015/11/retrospection.html
 https://blog.dina-web.net/2015/11/copenhagen-agenda.html
 https://blog.dina-web.net/2015/10/tdwg-poster.html

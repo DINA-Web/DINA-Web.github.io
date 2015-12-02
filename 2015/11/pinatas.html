@@ -1,0 +1,344 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>DINA-Web DevOps Piñatas</title>
+    
+    <meta name="author" content="DINA-Web">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+      <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/spacelab/bootstrap.min.css" rel="stylesheet">
+    
+
+    <!--[if lt IE 9]>
+      <script src="/assets/themes//resources/respond/Respond.min.js"></script>
+    <![endif]-->
+
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">DINA-Web Blog</a>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+            
+
+
+  
+    
+      
+      	
+      	<li><a href="/about/">About</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/archive">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories">Categories</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/guidelines/">Guidelines</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/pages">Pages</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/progress/">Progress</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags">Tags</a></li>
+      	
+      
+    
+  
+
+
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      
+<div class="page-header">
+  <h1>DINA-Web DevOps Piñatas </h1>
+</div>
+
+<div class="row post-full">
+  <div class="col-md-12">
+    <div class="date">
+      <span>18 November 2015</span>
+    </div>
+    <div class="content">
+      <p>Here we list DevOps Piñatas for DINA-Web. These challenges involves creating “micro service containers” for various modules in the DINA-Web system. So this is about building standalone boxes using tools such as Vagrant and “boxes” or modules that can be combined together into one system using tools as Docker and <code>docker-compose</code>. This list is ordered by (current) priority:</p>
+
+<p><img src="/figure/source/2015-11-18-pinatas/unnamed-chunk-2-1.png" alt="plot of chunk unnamed-chunk-2" /></p>
+
+<h1 id="the-dw-taxonomy-box">The “dw-taxonomy” box</h1>
+
+<p>At <a href="https://github.com/dina-web/dw-taxonomy">https://github.com/dina-web/dw-taxonomy</a> there is a repository with an integration project that brings up a stand alone virtual box with the module from <a href="https://github.com/TU-NHM/plutof-taxonomy-module">https://github.com/TU-NHM/plutof-taxonomy-module</a> which supports working with classifications. To do the above one needs to have <code>virtualbox</code> and <code>vagrant</code> installed and then do a <code>git clone</code> to get the module locally, then issue <code>vagrant up</code> to start the box.</p>
+
+<h3 id="tldr-summary">TLDR summary</h3>
+
+<p>Make the Vagrant box run without errors and dockerize this box.</p>
+
+<h3 id="todo">TODO</h3>
+
+<p>A lot of the work is done, the django dev server starts up and runs but this remains before this piñata container is successfully assembled:</p>
+
+<ol>
+  <li>fix any errors in the current <a href="https://github.com/DINA-Web/dw-taxonomy/blob/master/bootstrap.sh">bootstrap script</a></li>
+  <li>fix any errors in the module [setup script] (https://github.com/DINA-Web/dw-taxonomy/blob/master/setup-taxonomy-drf.sh)</li>
+  <li>integrate the web server to properly serve stylesheets for the service</li>
+  <li>provide instructions to load data</li>
+  <li>TODO: Ingimar may have more or have fixed some issues</li>
+</ol>
+
+<p>For integrating the web server - the configuration files for the apache web server and the integration between apache and django needs to be tweaked.</p>
+
+<p>For providing instructions to load data, another section in the README.md file needs to be added with step-by-step instructions on how to do this.</p>
+
+<p><img src="/figure/source/2015-11-18-pinatas/unnamed-chunk-3-1.png" alt="plot of chunk unnamed-chunk-3" /></p>
+
+<h1 id="the-dw-classifications-box">The “dw-classifications” box</h1>
+
+<p>Packaging the PlutoF Classifications module using Docker - an idea could be to use something like Bitnami Stacksmith to get started, for example: <a href="https://stacksmith.bitnami.com/api/v1/stacks/k81Sftw.dockerfile?api_key=619b5741441b28e37269f8ba23297113416dbbd8d9afaedfb85af329ac4ceb57">Python and Django</a></p>
+
+<p><img src="/figure/source/2015-11-18-pinatas/unnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" style="display: block; margin: auto auto auto 0;" /></p>
+
+<h1 id="the-dw-media-box">The “dw-media” box</h1>
+
+<p>At <a href="https://github.com/dina-web/dw-media">https://github.com/dina-web/dw-media</a> there is a repository with an integration project that brings up a stand alone virtual box with the module. These are issues being worked upon currently:</p>
+
+<ol>
+  <li>TODO: ask Ingimar what remains</li>
+</ol>
+
+<p>This box packaged using docker - again being inspired by by Bitnami Stacksmith, something like this could be used <a href="https://stacksmith.bitnami.com/api/v1/stacks/2gCNfIY.dockerfile?api_key=619b5741441b28e37269f8ba23297113416dbbd8d9afaedfb85af329ac4ceb57">Java application server</a></p>
+
+<p>An idea … perhaps it is even better to use docker-compose and combine these in a <code>docker-compose.yml</code> file…</p>
+
+<ul>
+  <li>Media server container built from Dockerfile extending App server: https://hub.docker.com/r/jboss/wildfly/</li>
+  <li>SSO: https://hub.docker.com/r/jboss/keycloak/</li>
+  <li>SSO backend integration: https://hub.docker.com/r/jboss/keycloak-mysql/</li>
+  <li>Tutorial: https://hub.docker.com/r/jboss/keycloak-examples/</li>
+  <li>Backend: https://hub.docker.com/_/postgres/</li>
+  <li>Backend: https://hub.docker.com/_/mysql/</li>
+  <li>Shared files: https://hub.docker.com/r/tianon/true/</li>
+</ul>
+
+<p><img src="/figure/source/2015-11-18-pinatas/unnamed-chunk-5-1.png" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" style="display: block; margin: auto auto auto 0;" /></p>
+
+<h1 id="the-dw-collections-box">The “dw-collections” box</h1>
+
+<p>This box should contain the data itself and REST APIs that should be used by applications.</p>
+
+<h3 id="todo-1">TODO</h3>
+
+<ul>
+  <li>Push DINA-Specify-API-v0 to github/dina-web</li>
+  <li>Assemble a docker-compose.yml that uses mysql with the data at https://github.com/DINA-Web/datasets</li>
+</ul>
+
+<p>Reuse these services…</p>
+
+<ul>
+  <li>App server exposing REST APIs: https://hub.docker.com/r/jboss/wildfly/</li>
+  <li>SSO: https://hub.docker.com/r/jboss/keycloak/</li>
+  <li>SSO backend integration: https://hub.docker.com/r/jboss/keycloak-mysql/</li>
+  <li>Tutorial: https://hub.docker.com/r/jboss/keycloak-examples/</li>
+  <li>Backend: https://hub.docker.com/_/mysql/</li>
+  <li>Backend: https://hub.docker.com/r/tianon/true/</li>
+  <li>Search: https://hub.docker.com/_/solr/</li>
+  <li>Web proxy: https://hub.docker.com/_/nginx/</li>
+</ul>
+
+<p>In addition, a custom Dockerfile would be built which would provide the DINA REST APIs?</p>
+
+<p><img src="/figure/source/2015-11-18-pinatas/unnamed-chunk-6-1.png" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" style="display: block; margin: auto auto auto 0;" /></p>
+
+<h1 id="the-dw-build-box">The “dw-build” box</h1>
+
+<p>A docker image which builds the DINA-Web system modules from sources and moves the sources and build artifacts to a backup server?</p>
+
+<p><img src="/figure/source/2015-11-18-pinatas/unnamed-chunk-7-1.png" title="plot of chunk unnamed-chunk-7" alt="plot of chunk unnamed-chunk-7" style="display: block; margin: auto auto auto 0;" /></p>
+
+<h1 id="the-dw-seqdb-box">The “dw-seqdb” box</h1>
+
+<p>This is done for Vagrant. But is it dockerized yet? And does it run with Wildfly?</p>
+
+<p>Would be nice to use docker-compose and runs with these… (note that some of these are different from the current stack used in seqdb, but it might be possible to easily run seqdb also on Widlfly as long as the JNDI-issue (?) can be resolved…. )</p>
+
+<ul>
+  <li>App server: https://hub.docker.com/r/jboss/wildfly/</li>
+  <li>SSO: https://hub.docker.com/r/jboss/keycloak/</li>
+  <li>SSO backend integration: https://hub.docker.com/r/jboss/keycloak-mysql/</li>
+  <li>Tutorial: https://hub.docker.com/r/jboss/keycloak-examples/</li>
+  <li>Backend: https://hub.docker.com/_/mysql/</li>
+  <li>Backend: https://hub.docker.com/r/tianon/true/</li>
+  <li>Search: https://hub.docker.com/_/solr/</li>
+</ul>
+
+<p><img src="/figure/source/2015-11-18-pinatas/unnamed-chunk-8-1.png" title="plot of chunk unnamed-chunk-8" alt="plot of chunk unnamed-chunk-8" style="display: block; margin: auto auto auto 0;" /></p>
+
+<h1 id="the-dw-ddt-box">The “dw-ddt” box</h1>
+
+<p>Currently this is a Vagrant project that uses the <a href="https://bitnami.com/stack/mean">Bitnami Mean stack</a>.</p>
+
+<p>An embryo of this can be found here: [](https://github.com/DINA-Web/dw-ddt), suggested inspiration here for dockerizing:
+[](https://github.com/bitnami/bitnami-docker/blob/master/tutorials/ghost.md)</p>
+
+<p><img src="/figure/source/2015-11-18-pinatas/unnamed-chunk-9-1.png" title="plot of chunk unnamed-chunk-9" alt="plot of chunk unnamed-chunk-9" style="display: block; margin: auto auto auto 0;" /></p>
+
+<h1 id="the-dw-rprtr-box">The “dw-rprtr” box</h1>
+
+<p>Create a minimalist external reporting system as an example of a set of containers running together as a system, using <code>docker-compose</code>, for tutorial and learning purposes.</p>
+
+<p>Ideally this box would access the DINA-Web API through keycloak for getting data using OAuth (once the dw-backend becomes available).</p>
+
+<p>Initially, it should provide:</p>
+
+<ul>
+  <li>An authoring platform capable of markdown and data wrangling with the latest tools, web based UI: https://hub.docker.com/r/rocker/ropensci/</li>
+  <li>An application server for interactive web application which can display dynamic reports: https://hub.docker.com/r/rocker/shiny/</li>
+  <li>A web proxy to provide these services to the web, either as virtual hosts (access from sub-domains) or as prefix-applications</li>
+  <li>A shared storage container, such as https://hub.docker.com/r/tianon/true/</li>
+</ul>
+
+<p>Later it should provide R packages and Python packages that support various data wrangling workflows, such as:</p>
+
+<ul>
+  <li>CollectionsBatchTool</li>
+  <li>dinar</li>
+  <li>Could be nice to make this service able to publish markdown reports as Jekyll sites w bootswatch/spacelab responsive design.</li>
+</ul>
+
+
+    </div>
+
+    
+
+    
+
+    <hr>
+
+    <ul class="pagination">
+      
+        <li class="prev"><a href="/2015/11/retrospection.html" title="Retrospection">&larr; Previous</a></li>
+      
+        <li><a href="/archive.html">Archive</a></li>
+      
+        <li class="next"><a href="/2015/11/efforts.html" title="Current work">Next &rarr;</a></li>
+      
+    </ul>
+    <hr>
+<!--    
+
+
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_developer = 1;
+    var disqus_shortname = 'jekyllbootstrap'; // required: replace example with your forum shortname
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+ -->
+  </div>
+</div>
+
+
+      <hr>
+      <footer>
+        <p>
+          &copy; 2015 DINA-Web
+          <span class="pull-right text-muted">
+            powered by
+            <a href="http://dbtek.github.io/jekyll-bootstrap-3" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll-Bootstrap-3</a>
+            and <a href="http://bootswatch.com" target="_blank">Bootswatch</a>
+          </span>
+        </p>
+      </footer>
+    </div>
+
+    
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
+</html>
+

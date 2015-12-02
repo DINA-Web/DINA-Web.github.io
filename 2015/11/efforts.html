@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
 
-    <title>Statistics for Museum loan requests</title>
+    <title>Current work</title>
     
     <meta name="author" content="DINA-Web">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -125,16 +125,74 @@
     <div class="container">
       
 <div class="page-header">
-  <h1>Statistics for Museum loan requests </h1>
+  <h1>Current work </h1>
 </div>
 
 <div class="row post-full">
   <div class="col-md-12">
     <div class="date">
-      <span>20 October 2015</span>
+      <span>30 November 2015</span>
     </div>
     <div class="content">
-      <p>Public users use an <a href="https://dina-web.net/loan">online web UI</a> to request loans from the Swedish Museum of Natural History. Here is an example report showing the number of <a href="/loan-requests/">loan requests made during 2015</a> (note: the numbers are not up to date, this post is an example showing a static report making use of leaflet for displaying a map, for up to date statse, see the earlier URL).</p>
+      <h2 id="devops-efforts">DevOps Efforts</h2>
+
+<p>Development, system integration and packaging</p>
+
+<ul>
+  <li>Establishing REST APIs for all modules in DINA-Web
+    <ul>
+      <li>There is a <a href="https://github.com/DINA-Web/information-model/blob/master/blueprints.Rmd">tutorial</a> and first blueprint for the simplistic Species Information service</li>
+      <li>This should serve as guide towards getting the rest of the APIs in place (Media, Collections, Classifications, etc etc)</li>
+    </ul>
+  </li>
+  <li>Information model &amp; new data model
+    <ul>
+      <li>Proof of Concept for <a href="https://github.com/chicoreus/cco_poc">Complex Natural History Museum Collections Objects</a> - the next evolutionary step for the Collections information model</li>
+      <li>Liquibase for database agnostic schemas, need small <a href="https://github.com/inkimar/liquibase-example">tutorial</a>, need to answer questions in the read me document</li>
+      <li>Dockerize and make db engine agnostic with liquibase  - http://www.liquibase.org/</li>
+      <li>Referential use case with UML from Glen to address Thomas concerns with micro-service architecture and Web API strategy</li>
+    </ul>
+  </li>
+  <li>Systems integration effort using micro-services architecture toolchains
+    <ul>
+      <li>Use “Boxes within boxes” with Docker and “docker-compose” to assemble higher level systems of interrelated containers</li>
+      <li>List tasks for system integration tasks aka [“DevOps Pinatas”]</li>
+      <li>Require from modules to show integration with KeyCloak for SSO and Users/Permissions mgm</li>
+    </ul>
+  </li>
+  <li>DINA-Compliance (security, accessibility, testing and validation)
+    <ul>
+      <li>Glen: Additional plugin for validators. From Ingimar for Jenkins. Suggested Unicorn – unified validator. We should consider this, maintaining good practice. Not really optional.
+        <ul>
+          <li>W3C  HTML/CSS unified validator https://validator.w3.org/unicorn/</li>
+          <li>Jenkins Unicorn validator https://wiki.jenkins-ci.org/display/JENKINS/Unicorn+Validation+Plugin</li>
+          <li>From David: https://validator.w3.org/docs/api.html</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="collaboration-efforts">Collaboration efforts</h2>
+
+<p>Meetings and Communication infrastructure</p>
+
+<ul>
+  <li>Get additional DINA-Web internal communications infrastructure in place
+    <ul>
+      <li><a href="https://drive.google.com/folderview?id=0B1zwfOKfRazISndDZ0NhXzlBY1U&amp;usp=sharing&amp;invite=CK7qyns&amp;ts=5637c782">Google Drive for working documents</a> where <a href="https://github.com/DINA-Web">GitHub</a> doesn’t work (non-developers feel more at home on Google Drive?)</li>
+      <li>Redmine for external tickets/issues (and project management) where <a href="https://github.com/blog/831-issues-2-0-the-next-generation">GitHub Issues</a> doesn’t suffice</li>
+      <li>IRC chat at freenode (#dinaweb)</li>
+      <li><a href="blog.dina-web.net">Developer blog</a></li>
+    </ul>
+  </li>
+  <li>Next DINA physical meeting Berlin
+    <ul>
+      <li>Doodle on potential weeks for next meeting at Berlin in June.</li>
+    </ul>
+  </li>
+</ul>
+
 
     </div>
 
@@ -146,11 +204,11 @@
 
     <ul class="pagination">
       
-        <li class="prev"><a href="/2015/10/contributor-bios.html" title="The team">&larr; Previous</a></li>
+        <li class="prev"><a href="/2015/11/pinatas.html" title="DINA-Web DevOps Piñatas">&larr; Previous</a></li>
       
         <li><a href="/archive.html">Archive</a></li>
       
-        <li class="next"><a href="/2015/10/troubleshooting.html" title="Troubleshooting">Next &rarr;</a></li>
+        <li class="next disabled"><a>Next &rarr;</a>
       
     </ul>
     <hr>

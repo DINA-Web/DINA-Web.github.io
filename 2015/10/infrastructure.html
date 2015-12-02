@@ -14,7 +14,7 @@
     
 
     <!--[if lt IE 9]>
-      <script src="/assets/themes/bootswatch/resources/respond/Respond.min.js"></script>
+      <script src="/assets/themes//resources/respond/Respond.min.js"></script>
     <![endif]-->
 
     <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
@@ -54,7 +54,7 @@
     
       
       	
-      	<li><a href="/archive.html">Archive</a></li>
+      	<li><a href="/archive">Archive</a></li>
       	
       
     
@@ -66,7 +66,7 @@
     
       
       	
-      	<li><a href="/categories.html">Categories</a></li>
+      	<li><a href="/categories">Categories</a></li>
       	
       
     
@@ -86,7 +86,7 @@
     
       
       	
-      	<li><a href="/pages.html">Pages</a></li>
+      	<li><a href="/pages">Pages</a></li>
       	
       
     
@@ -110,7 +110,7 @@
     
       
       	
-      	<li><a href="/tags.html">Tags</a></li>
+      	<li><a href="/tags">Tags</a></li>
       	
       
     
@@ -136,7 +136,7 @@
     <div class="content">
       <h2 id="production-server-setup---infrastructure-stack">Production server setup - Infrastructure stack</h2>
 
-<p>This setup uses the Ubuntu 14.04 LTS (64-bit) Linux OS. </p>
+<p>This setup uses the Ubuntu 14.04 LTS (64-bit) Linux OS.</p>
 
 <p>Other important software components used here are:</p>
 
@@ -175,12 +175,12 @@
 
 <h2 id="introduction-to-the-infrastructure">Introduction to the infrastructure</h2>
 
-<p>In the above sketch, the CC server is an ssh gateway (Checkpoint Charlie) which provides access for devops users or sysadmins to the production environment that runs the DINA WEB system. </p>
+<p>In the above sketch, the CC server is an ssh gateway (Checkpoint Charlie) which provides access for devops users or sysadmins to the production environment that runs the DINA WEB system.</p>
 
-<p>The application server AS contains a webserver which accepts web traffic (http, https) and reverse proxies it to Wildfly - a Java 2 EE application server, which runs the DINA WEB modules, which in turn gets their data from DB, the database server. </p>
+<p>The application server AS contains a webserver which accepts web traffic (http, https) and reverse proxies it to Wildfly - a Java 2 EE application server, which runs the DINA WEB modules, which in turn gets their data from DB, the database server.</p>
 
 <ul>
-  <li>By using bitnami software stacks we get a “portable” setup so that backups of application and data files should be restorable and deployable even on another base OS. At least in theory. In practice the Ubuntu 14.04 LTS OS has been used. </li>
+  <li>By using bitnami software stacks we get a “portable” setup so that backups of application and data files should be restorable and deployable even on another base OS. At least in theory. In practice the Ubuntu 14.04 LTS OS has been used.</li>
   <li>A single OS user is used to run all the services. This avoids using the root user to install services etc.</li>
   <li>Firewall redirection sends http and https traffic to services.</li>
   <li>Startup scripts install the software to run as service on the OS, so it automatically starts up when the system is bounced.</li>
@@ -197,9 +197,9 @@
 
 <h3 id="open-source-dev-collaboration-tools">Open source dev collaboration tools</h3>
 
-<p>See the <a href="https://issues.dina-web.net">issue tracker</a> using RedMine for various BIO projects… </p>
+<p>See the <a href="https://issues.dina-web.net">issue tracker</a> using RedMine for various BIO projects…</p>
 
-<p>We also use tools like:  </p>
+<p>We also use tools like:</p>
 
 <ul>
   <li>Gitorious</li>
