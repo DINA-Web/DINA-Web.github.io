@@ -1,0 +1,224 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Using docker with DINA-Web repos (dw-*)</title>
+    
+    <meta name="author" content="DINA-Web">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+      <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/spacelab/bootstrap.min.css" rel="stylesheet">
+    
+
+    <!--[if lt IE 9]>
+      <script src="/assets/themes//resources/respond/Respond.min.js"></script>
+    <![endif]-->
+
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">DINA-Web Blog</a>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+            
+
+
+  
+    
+      
+      	
+      	<li><a href="/about/">About</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/archive">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories">Categories</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/guidelines/">Guidelines</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/pages">Pages</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/progress/">Progress</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags">Tags</a></li>
+      	
+      
+    
+  
+
+
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      
+<div class="page-header">
+  <h1>Using docker with DINA-Web repos (dw-*) </h1>
+</div>
+
+<div class="row post-full">
+  <div class="col-md-12">
+    <div class="date">
+      <span>13 June 2016</span>
+    </div>
+    <div class="content">
+      <h2 id="preparations">Preparations</h2>
+
+<p>Note: If you are on Linux, you can skip the first three steps, since you can run docker directly instead of inside a Virtual Machine</p>
+
+<ol>
+  <li>Install VirtualBox on your laptop to get a contained environment for the workshops hackathon materials</li>
+  <li>Inside the VirtualBox, install Linux Mint (http://distrowatch.com/table.php?distribution=mint), give it say 4 G RAM and 20 G disk</li>
+  <li>Now log in to this VM and complete the rest of the preparations below inside there.</li>
+  <li>Inside this VM, install docker using instructions at https://docs.docker.com/linux/step_one/ - follow instructions all the way up to step 4 (at least)</li>
+  <li>Install docker-compose, start at https://docs.docker.com/engine/installation/linux/ubuntulinux/ (Mint is using ubuntu packages)</li>
+  <li>Install make (sudo apt-get install make) and git (sudo apt-get install git)</li>
+  <li>Create a “repos” directory and use git clone (for example git clone https://github.com/Inkimar/dw-media.git) to get the reference materials for various modules onto the laptop so you can run them there…
+    <ul>
+      <li>dw-collections <a href="https://github.com/DINA-Web/dw-collections">https://github.com/DINA-Web/dw-collections</a></li>
+      <li>dw-collections-ui <a href="https://github.com/DINA-Web/dw-collections-ui">https://github.com/DINA-Web/dw-collections-ui</a></li>
+      <li>dw-media <a href="https://github.com/DINA-Web/dw-media">https://github.com/DINA-Web/dw-media</a></li>
+      <li>dw-seqdb <a href="https://github.com/DINA-Web/dw-seqdb">https://github.com/DINA-Web/dw-seqdb</a></li>
+      <li>dw-classifications <a href="https://github.com/DINA-Web/dw-classifications">https://github.com/DINA-Web/dw-classifications</a></li>
+      <li>dw-cli-tools <a href="https://github.com/DINA-Web/dw-cli-tools">https://github.com/DINA-Web/dw-cli-tools</a></li>
+      <li>dw-system <a href="https://github.com/DINA-Web/dw-system">https://github.com/DINA-Web/dw-system</a></li>
+    </ul>
+  </li>
+  <li>In most cases, you should be able to start the apps locally now, by doing “cd dw-media” and “make” (in the case where there are Makefiles)</li>
+</ol>
+
+<p>If you can run the apps, you have everything in order, if not, please troubleshoot until you have it working.</p>
+
+<h3 id="good-tutorial-providing-sample-docker-application">Good Tutorial providing sample Docker application</h3>
+
+<p>For learning more about docker and deploying distributed polyglot apps (ie apps that combine various technologies like JavaScript, Java and Python apps in one system, much like DINA-Web does), please check out this official Docker tutorial: <a href="https://github.com/docker/docker-birthday-3">https://github.com/docker/docker-birthday-3</a> It is good to have had a look at this material.</p>
+
+<h3 id="advanced-docker-topics">Advanced Docker topics</h3>
+
+<p>More advanced training materials are available from Docker’s own training guru at: <a href="http://view.dckr.info">http://view.dckr.info</a>. It contains useful information about “Docker Orchestration” and tools such as the <code>build-tag-push.py</code> command-line tool at <a href="https://github.com/jpetazzo/orchestration-workshop/blob/master/bin/build-tag-push.py">https://github.com/jpetazzo/orchestration-workshop/blob/master/bin/build-tag-push.py</a>.</p>
+
+<h3 id="think-about-challenges">Think about challenges</h3>
+
+<p>Please also think about functionality that might be good to break out and isolate from existing applications or systems in order to be able to work with smaller, independent units with the intent to facilitate reuse, portability and ability to work in parallell.</p>
+
+<p>An example:</p>
+
+<ul>
+  <li>How can the seqdb or the taxonomy module support SSO and user permissions stored in KeyCloak?</li>
+</ul>
+
+    </div>
+
+    
+
+    
+
+    <hr>
+
+    <ul class="pagination">
+      
+        <li class="prev"><a href="/2016/06/agenda-berlin.html" title="Agenda for Berlin 2016 DINA-Web workshop">&larr; Previous</a></li>
+      
+        <li><a href="/archive.html">Archive</a></li>
+      
+        <li class="next disabled"><a>Next &rarr;</a>
+      
+    </ul>
+    <hr>
+<!--     -->
+  </div>
+</div>
+
+
+      <hr>
+      <footer>
+        <p>
+          &copy; 2016 DINA-Web
+          <span class="pull-right text-muted">
+            powered by
+            <a href="http://dbtek.github.io/jekyll-bootstrap-3" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll-Bootstrap-3</a>
+            and <a href="http://bootswatch.com" target="_blank">Bootswatch</a>
+          </span>
+        </p>
+      </footer>
+    </div>
+
+    
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
+</html>
+

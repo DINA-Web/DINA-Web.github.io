@@ -4,13 +4,160 @@
  <title>DINA-Web Blog</title>
  <link href="https://blog.dina-web.net/" rel="self"/>
  <link href="https://blog.dina-web.net"/>
- <updated>2015-12-02T14:14:28+01:00</updated>
+ <updated>2016-06-13T10:59:11+02:00</updated>
  <id>https://blog.dina-web.net</id>
  <author>
    <name>DINA-Web</name>
    <email>info@dina-project.net</email>
  </author>
 
+ 
+ <entry>
+   <title>Using docker with DINA-Web repos (dw-*)</title>
+   <link href="https://blog.dina-web.net/2016/06/docker-with-dinaweb-repos.html"/>
+   <updated>2016-06-13T00:00:00+02:00</updated>
+   <id>https://blog.dina-web.net/2016/06/docker-with-dinaweb-repos</id>
+   <content type="html">&lt;h2 id=&quot;preparations&quot;&gt;Preparations&lt;/h2&gt;
+
+&lt;p&gt;Note: If you are on Linux, you can skip the first three steps, since you can run docker directly instead of inside a Virtual Machine&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Install VirtualBox on your laptop to get a contained environment for the workshops hackathon materials&lt;/li&gt;
+  &lt;li&gt;Inside the VirtualBox, install Linux Mint (http://distrowatch.com/table.php?distribution=mint), give it say 4 G RAM and 20 G disk&lt;/li&gt;
+  &lt;li&gt;Now log in to this VM and complete the rest of the preparations below inside there.&lt;/li&gt;
+  &lt;li&gt;Inside this VM, install docker using instructions at https://docs.docker.com/linux/step_one/ - follow instructions all the way up to step 4 (at least)&lt;/li&gt;
+  &lt;li&gt;Install docker-compose, start at https://docs.docker.com/engine/installation/linux/ubuntulinux/ (Mint is using ubuntu packages)&lt;/li&gt;
+  &lt;li&gt;Install make (sudo apt-get install make) and git (sudo apt-get install git)&lt;/li&gt;
+  &lt;li&gt;Create a “repos” directory and use git clone (for example git clone https://github.com/Inkimar/dw-media.git) to get the reference materials for various modules onto the laptop so you can run them there…
+    &lt;ul&gt;
+      &lt;li&gt;dw-collections &lt;a href=&quot;https://github.com/DINA-Web/dw-collections&quot;&gt;https://github.com/DINA-Web/dw-collections&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;dw-collections-ui &lt;a href=&quot;https://github.com/DINA-Web/dw-collections-ui&quot;&gt;https://github.com/DINA-Web/dw-collections-ui&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;dw-media &lt;a href=&quot;https://github.com/DINA-Web/dw-media&quot;&gt;https://github.com/DINA-Web/dw-media&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;dw-seqdb &lt;a href=&quot;https://github.com/DINA-Web/dw-seqdb&quot;&gt;https://github.com/DINA-Web/dw-seqdb&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;dw-classifications &lt;a href=&quot;https://github.com/DINA-Web/dw-classifications&quot;&gt;https://github.com/DINA-Web/dw-classifications&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;dw-cli-tools &lt;a href=&quot;https://github.com/DINA-Web/dw-cli-tools&quot;&gt;https://github.com/DINA-Web/dw-cli-tools&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;dw-system &lt;a href=&quot;https://github.com/DINA-Web/dw-system&quot;&gt;https://github.com/DINA-Web/dw-system&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;In most cases, you should be able to start the apps locally now, by doing “cd dw-media” and “make” (in the case where there are Makefiles)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;If you can run the apps, you have everything in order, if not, please troubleshoot until you have it working.&lt;/p&gt;
+
+&lt;h3 id=&quot;good-tutorial-providing-sample-docker-application&quot;&gt;Good Tutorial providing sample Docker application&lt;/h3&gt;
+
+&lt;p&gt;For learning more about docker and deploying distributed polyglot apps (ie apps that combine various technologies like JavaScript, Java and Python apps in one system, much like DINA-Web does), please check out this official Docker tutorial: &lt;a href=&quot;https://github.com/docker/docker-birthday-3&quot;&gt;https://github.com/docker/docker-birthday-3&lt;/a&gt; It is good to have had a look at this material.&lt;/p&gt;
+
+&lt;h3 id=&quot;advanced-docker-topics&quot;&gt;Advanced Docker topics&lt;/h3&gt;
+
+&lt;p&gt;More advanced training materials are available from Docker’s own training guru at: &lt;a href=&quot;http://view.dckr.info&quot;&gt;http://view.dckr.info&lt;/a&gt;. It contains useful information about “Docker Orchestration” and tools such as the &lt;code&gt;build-tag-push.py&lt;/code&gt; command-line tool at &lt;a href=&quot;https://github.com/jpetazzo/orchestration-workshop/blob/master/bin/build-tag-push.py&quot;&gt;https://github.com/jpetazzo/orchestration-workshop/blob/master/bin/build-tag-push.py&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;think-about-challenges&quot;&gt;Think about challenges&lt;/h3&gt;
+
+&lt;p&gt;Please also think about functionality that might be good to break out and isolate from existing applications or systems in order to be able to work with smaller, independent units with the intent to facilitate reuse, portability and ability to work in parallell.&lt;/p&gt;
+
+&lt;p&gt;An example:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;How can the seqdb or the taxonomy module support SSO and user permissions stored in KeyCloak?&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Agenda for Berlin 2016 DINA-Web workshop</title>
+   <link href="https://blog.dina-web.net/2016/06/agenda-berlin.html"/>
+   <updated>2016-06-12T00:00:00+02:00</updated>
+   <id>https://blog.dina-web.net/2016/06/agenda-berlin</id>
+   <content type="html">&lt;p&gt;Here is the Agenda in Google Calendar with the topics and session for the three days:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://calendar.google.com/calendar/embed?src=k8dogtsts5nhn2m04o95mspusc%40group.calendar.google.com&amp;amp;ctz=Europe/Stockholm&quot;&gt;Google Calendar for Berlin 2016 workshop&lt;/a&gt;.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Improving the guidelines</title>
+   <link href="https://blog.dina-web.net/2016/06/latest-guidelines.html"/>
+   <updated>2016-06-11T00:00:00+02:00</updated>
+   <id>https://blog.dina-web.net/2016/06/latest-guidelines</id>
+   <content type="html">&lt;p&gt;Here are the DINA-Web collaboration guidelines:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/DINA-Web/dina-api-standard/blob/master/DINA-Web-API-Guidelines.md&quot;&gt;Functionality/API guidelines&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/guidelines/style.html&quot;&gt;Style guidelines&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/guidelines/licensing.html&quot;&gt;Licensing guidelines&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/guidelines/releases.html&quot;&gt;Release guidelines&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/guidelines/qa.html&quot;&gt;Quality Assurance guidelines&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;discussion-topics&quot;&gt;Discussion topics&lt;/h1&gt;
+
+&lt;p&gt;Suggested areas to improve across the guidelines:&lt;/p&gt;
+
+&lt;h2 id=&quot;api-guidelines&quot;&gt;API guidelines&lt;/h2&gt;
+
+&lt;p&gt;Suggest change format to use API Blueprint format? This is also markdown but what we suggest for API docs.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://github.com/apiaryio/api-blueprint/tree/master/examples&lt;/li&gt;
+  &lt;li&gt;use and suggest using aglio or equiv to render to .html&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;see renderers here for tools (md -&amp;gt; html): https://apiblueprint.org/tools.html&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Paging support&lt;/li&gt;
+  &lt;li&gt;Authentication flow&lt;/li&gt;
+  &lt;li&gt;Batch requests&lt;/li&gt;
+  &lt;li&gt;JSONAPI format&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;style-guidelines&quot;&gt;Style guidelines&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Provide repo w graphical assets with DINA-Web Collections Manager stylesheets etc&lt;/li&gt;
+  &lt;li&gt;More ideas?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;licensing-guidelines&quot;&gt;Licensing guidelines&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Any issues? Or do you comply :)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;release-and-qa-guidelines&quot;&gt;Release and QA guidelines&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Need updated tool recommendations&lt;/li&gt;
+  &lt;li&gt;Does these guidelines lack anything?&lt;/li&gt;
+  &lt;li&gt;Do you use them?&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>State of the Union for DINA-Web in 2016</title>
+   <link href="https://blog.dina-web.net/2016/06/state-of-the-union-2016.html"/>
+   <updated>2016-06-10T00:00:00+02:00</updated>
+   <id>https://blog.dina-web.net/2016/06/state-of-the-union-2016</id>
+   <content type="html">&lt;p&gt;Here is an &lt;a href=&quot;/progress/&quot;&gt;updated state of the union&lt;/a&gt; overview for DINA-Web in 2016. It includes updates made over the last six months.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Mattermost - new web-based chat channel</title>
+   <link href="https://blog.dina-web.net/2016/06/dw-chat.html"/>
+   <updated>2016-06-09T00:00:00+02:00</updated>
+   <id>https://blog.dina-web.net/2016/06/dw-chat</id>
+   <content type="html">&lt;p&gt;Now the &lt;a href=&quot;https://github.com/dina-web/dw-chat&quot;&gt;DINA-Web Chat&lt;/a&gt; is deployed and running at &lt;a href=&quot;https://chat.dina-web.net&quot;&gt;https://chat.dina-web.net&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Some of us have asked for a channel like this because it is less formal than e-mail and less techy than irc and can also be integrated with GitHub (not done yet).&lt;/p&gt;
+
+&lt;p&gt;You will be invited to join through e-mail, soon.&lt;/p&gt;
+
+&lt;p&gt;Please sign up and chat online!&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Current work</title>
@@ -846,7 +993,7 @@ exit
  </entry>
  
  <entry>
-   <title>State of the Union for DINA-Web</title>
+   <title>State of the Union for DINA-Web, progress in 2016</title>
    <link href="https://blog.dina-web.net/2015/10/state-of-the-union.html"/>
    <updated>2015-10-18T00:00:00+02:00</updated>
    <id>https://blog.dina-web.net/2015/10/state-of-the-union</id>

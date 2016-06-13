@@ -11,6 +11,11 @@ https://blog.dina-web.net/rss.xml
 https://blog.dina-web.net/sitemap.txt
 https://blog.dina-web.net/tags
 
+https://blog.dina-web.net/2016/06/docker-with-dinaweb-repos.html
+https://blog.dina-web.net/2016/06/agenda-berlin.html
+https://blog.dina-web.net/2016/06/latest-guidelines.html
+https://blog.dina-web.net/2016/06/state-of-the-union-2016.html
+https://blog.dina-web.net/2016/06/dw-chat.html
 https://blog.dina-web.net/2015/11/efforts.html
 https://blog.dina-web.net/2015/11/pinatas.html
 https://blog.dina-web.net/2015/11/retrospection.html
