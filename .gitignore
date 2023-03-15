@@ -2,6 +2,7 @@
 .bundle
 .sass-cache
 _site
+_config.yml
 Gemfile.lock
 
 # npm
