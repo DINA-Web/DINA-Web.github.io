@@ -1,8 +1,7 @@
 ---
-title: "DINA Home"
+title: "Mission & Vision"
 description: "DINA Consortium"
-layout: home
-permalink: /en/home
+permalink: /en/consortium/mission-vision
 last_modified_at: 2023-02-16T11:59:26-04:00
 ---
 

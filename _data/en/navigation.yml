@@ -1,0 +1,36 @@
+# Links listed below will be included in your site's navbar (navigation at the top)
+
+- text: Home # Note that users can also reach the homepage by clicking the site's title on the left in the navbar
+  href: /en/home
+- text: Consortium
+  menu:
+  - text: Mission & Vision
+    href: /en/consortium/mission-vision
+  - text: "---" # Divider to separate blocks of menu items (at least 3 "-")
+  - text: "Structure and Governance" # Title for block of menu items
+  - text: Steering Committee
+    href: /en/consortium/steering-committee
+  - text: Technical Commitee
+    href: /en/consortium/technical-committee
+  - text: "---" # Divider to separate blocks of menu items (at least 3 "-")
+  - text: Members
+    href: /en/consortium/members
+  - text: How to join
+    href: /en/consortium/how-to-join
+  - text: FAQs
+    href: /en/consortium/faq
+- text: Demo
+  href: https://demo.dina-project.net
+  new_window: true
+- text: Documentation
+  menu: # Dropdown menu (one level deep only)
+  - text: Users
+    href: /en/docs/user-documentation
+  - text: Developers
+    href: /en/docs/dev-documentation
+  - text: Administrators
+    href: /en/docs/admin-documentation
+  - text: Installation
+    href: /en/docs/installation
+  - text: API Specifications
+    href: /en/docs/api-specs
