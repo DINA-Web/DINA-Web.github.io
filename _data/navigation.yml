@@ -2,23 +2,45 @@
 
 - text: Home # Note that users can also reach the homepage by clicking the site's title on the left in the navbar
   href: /
-- text: About
-  href: /about/
-- text: Team
-  href: /team/
-- text: Blog
+- text: Consortium
+  menu:
+  - text: Mission & Vision
+    href: /consortium/mission-vision
+  - text: "---" # Divider to separate blocks of menu items (at least 3 "-")
+  - text: "Structure and Governance" # Title for block of menu items
+  - text: Steering Committee
+    href: /consortium/steering-committee
+  - text: Technical Commitee
+    href: /consortium/technical-committee
+  - text: "---" # Divider to separate blocks of menu items (at least 3 "-")
+  - text: Members
+    href: /consortium/members
+  - text: How to join
+    href: /consortium/how-to-join
+  - text: FAQs
+    href: /consortium/faq
+- text: news
   href: /blog/
+- text: Demo
+  href: https://demo.dina-project.net
+  new_window: true
 - text: Documentation
   menu: # Dropdown menu (one level deep only)
-  - text: Installation
+  - text: User Documentation
+    href: /docs/user-documentation/
+  - text: Administrative Documentation
+    href: /docs/admin-documentation/
+  - text: Installation Documentation
     href: /docs/installation/
-  - text: Configuration
-    href: /docs/configuration/
-  - href: /docs/markdown/ # Undefined "text" will automatically get the title of the page at "href" (here "Markdown")
-  - text: "---" # Divider to separate blocks of menu items (at least 3 "-")
-  - text: "Dropdown header" # Title for block of menu items
-  - text: Page with custom navigation
-    href: /docs/custom-navigation/
+  - text: Developer Documentation
+    href: /docs/dev-documentation/
+  - text: API Specification
+    href: /docs/api-specs/
+#  - href: /docs/markdown/ # Undefined "text" will automatically get the title of the page at "href" (here "Markdown")
+#  - text: "---" # Divider to separate blocks of menu items (at least 3 "-")
+#  - text: "Dropdown header" # Title for block of menu items
+#  - text: Page with custom navigation
+#    href: /docs/custom-navigation/
 - text: GitHub
-  href: https://github.com/peterdesmet/petridish/
+  href: https://github.com/DINA-Web/
   new_window: true
