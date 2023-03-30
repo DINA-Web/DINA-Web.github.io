@@ -1,3 +1,12 @@
+{% if page.lang == 'en' %}
+  {% assign home_url = '/' %}
+  {% assign other_path = page.url | prepend: '/fr' %}
+  {% assign other_lang = 'Français' %}
+{% elsif page.lang == 'fr' %}
+  {% assign home_url = '/fr/' %}
+  {% assign other_path = page.url | replace_first: '/fr', '' %}
+  {% assign other_lang = 'English' %}
+{% endif %}
 <nav class="navbar navbar-expand-lg navbar-light bg-light" id="main-nav">
   <div class="container">
     <a class="navbar-brand d-flex align-items-center" href="{{'/' | relative_url }}">
@@ -6,8 +15,8 @@
       {% endif %}
       {{ site.title }}
     </a>
-    {% if page.navigation and site.data[page.navigation] %}
-      {% assign navigation = site.data[page.navigation] %}
+    {% if site.data[page.lang].navigation %}
+      {% assign navigation = site.data[page.lang].navigation %}
     {% elsif site.data.navigation %}
       {% assign navigation = site.data.navigation %}
     {% endif %}
@@ -51,6 +60,12 @@
               </li>
             {% endif %}
           {% endfor %}
+          <!-- Language selector -->
+          <!-- Commented Out For Now
+          <li class="navbar-item">
+            <a class="nav-link" href="{{ other_path | relative_url }}">{{ other_lang }}</a>
+          </li>
+          -->
         </ul>
       </div>
     {% endif %}

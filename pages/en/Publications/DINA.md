@@ -1,9 +1,8 @@
 ---
-permalink: /publications/
+permalink: /en/publications/dina
 title: "DINA Publications"
 excerpt: "Selected publications about DINA"
 last_modified_at: 2023-02-22T13:44:26-01:00
-toc: true
 ---
 
 Bölling C, Bilkhu S, Gendreau C, Glöckler F, Macklin J, Shorthouse D (2022): **Representation of Object Provenance for Research on Natural Science Objects: Samples, parts and derivatives in DINA-compliant collection data management** Biodiversity Information Science and Standards 6: e94531. https://doi.org/10.3897/biss.6.94531

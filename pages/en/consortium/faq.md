@@ -1,8 +1,7 @@
 ---
-title: "DINA Home"
+title: "FAQ"
 description: "DINA Consortium"
-layout: home
-permalink: /en/home
+permalink: /en/consortium/faq
 last_modified_at: 2023-02-16T11:59:26-04:00
 ---
 
