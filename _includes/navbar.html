@@ -1,12 +1,4 @@
-{% if page.lang == 'en' %}
-  {% assign home_url = '/' %}
-  {% assign other_path = page.url | prepend: '/fr' %}
-  {% assign other_lang = 'Français' %}
-{% elsif page.lang == 'fr' %}
-  {% assign home_url = '/fr/' %}
-  {% assign other_path = page.url | replace_first: '/fr', '' %}
-  {% assign other_lang = 'English' %}
-{% endif %}
+{% assign home_url = '/' | append: page.lang | append: '/home' %}
 <nav class="navbar navbar-expand-lg navbar-light bg-light" id="main-nav">
   <div class="container">
     <a class="navbar-brand d-flex align-items-center" href="{{'/' | relative_url }}">
@@ -61,11 +53,17 @@
             {% endif %}
           {% endfor %}
           <!-- Language selector -->
-          <!-- Commented Out For Now
-          <li class="navbar-item">
-            <a class="nav-link" href="{{ other_path | relative_url }}">{{ other_lang }}</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+              <i class="fa fa-language"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-end">
+              {% for lang in site.languages %}
+                {% assign find = '/' | append: page.lang  %}
+                {% assign replace = '/' | append: lang[0] %}
+                <a class="dropdown-item" href="{{ page.url | replace_first: find, replace }}">{{ lang[1] }}</a>
+              {% endfor %}
           </li>
-          -->
         </ul>
       </div>
     {% endif %}

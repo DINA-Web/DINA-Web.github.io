@@ -1,9 +1,10 @@
 ---
 permalink: /en/demo/
 title: "Demo"
-excerpt: "Here you can find the public demo instanace of the DINA System"
+excerpt: "Here you can find the public demo instance of the DINA System"
 last_modified_at: 2023-02-17T13:44:26-04:00
 toc: true
+lang: en
 ---
 
 [[File:DINA_Demo_Login.PNG|link=https://demo.dina-project.net/|center]]
