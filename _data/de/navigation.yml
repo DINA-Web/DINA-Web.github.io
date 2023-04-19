@@ -2,35 +2,35 @@
 
 - text: Home # Note that users can also reach the homepage by clicking the site's title on the left in the navbar
   href: /de/home
-- text: Consortium
+- text: Konsortium
   menu:
   - text: Mission & Vision
     href: /de/consortium/mission-vision
   - text: "---" # Divider to separate blocks of menu items (at least 3 "-")
-  - text: "Structure and Governance" # Title for block of menu items
+  - text: "Struktur und Steuerung" # Title for block of menu items
   - text: Steering Committee
     href: /de/consortium/steering-committee
-  - text: Technical Commitee
+  - text: Technical Committee
     href: /de/consortium/technical-committee
   - text: "---" # Divider to separate blocks of menu items (at least 3 "-")
-  - text: Members
+  - text: Mitglieder
     href: /de/consortium/members
-  - text: How to join
+  - text: Wie kann ich beitreten?
     href: /de/consortium/how-to-join
   - text: FAQs
     href: /de/consortium/faq
 - text: Demo
   href: https://demo.dina-project.net
   new_window: true
-- text: Documentation
+- text: Dokumentation
   menu: # Dropdown menu (one level deep only)
-  - text: Users
+  - text: Für Nutzer:innen
     href: /de/docs/user-documentation
-  - text: Developers
+  - text: Für Entwickler:innen
     href: /de/docs/dev-documentation
-  - text: Administrators
+  - text: Für Administrator:innen
     href: /de/docs/admin-documentation
   - text: Installation
     href: /de/docs/installation
-  - text: API Specifications
+  - text: API Specifikationen
     href: /de/docs/api-specs
