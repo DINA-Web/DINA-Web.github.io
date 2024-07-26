@@ -61,7 +61,7 @@
               {% for lang in site.languages %}
                 {% assign find = '/' | append: page.lang | append: '/'  %}
                 {% assign replace = '/' | append: lang[0] | append: '/' %}
-                <a class="dropdown-item" href="{{ page.url | replace_first: find, replace }}">{{ lang[1] }}</a>
+                <a class="dropdown-item" href="{{ page.url | replace_first: find, replace | relative_url }}">{{ lang[1] }}</a>
               {% endfor %}
           </li>
         </ul>
