@@ -45,6 +45,8 @@ exclude:
   - package-lock.json
   - package.json
   - petridish.gemspec
+  - .ruby-gemset
+  - .ruby-version
 
 # FRONTMATTER DEFAULTS
 defaults:
