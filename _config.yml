@@ -1,7 +1,7 @@
 # SITE SETTINGS
 title: DINA                        # Title in top navigation bar (navbar) and <head>
 author: DINA Consortium                   # Used for copyright statement in footer
-baseurl: "/new-dina-web.github.io/"                   # Only required if your site is in a directory e.g. https://username.github.io/sitename
+baseurl: "/"                   # Only required if your site is in a directory e.g. https://username.github.io/sitename
                                         # which has url: "https://username.github.io" (no slash) and baseurl: "/sitename" (leading slash)
 url: https://dshorthouse.github.io
 repository: DINA-Web/new-dina-web.github.io
