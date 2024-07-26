@@ -1,7 +1,7 @@
 {% assign home_url = '/' | append: page.lang | append: '/home' %}
 <nav class="navbar navbar-expand-lg navbar-light bg-light" id="main-nav">
   <div class="container">
-    <a class="navbar-brand d-flex align-items-center" href="{{'/' | relative_url }}">
+    <a class="navbar-brand d-flex align-items-center" href="{{'/' | append: page.lang | append: '/home' | relative_url }}">
       {% if site.logo %}
         <img class="me-3" src="{{ site.logo | relative_url }}" alt="{{ site.title }}">
       {% endif %}
