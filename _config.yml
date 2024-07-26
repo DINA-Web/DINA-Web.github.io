@@ -47,11 +47,14 @@ exclude:
   - petridish.gemspec
   - .ruby-gemset
   - .ruby-version
+  - collection-specs/
+  - "_site/collection-specs/"
+keep_files:
+  - collection-specs/
 
 # FRONTMATTER DEFAULTS
 defaults:
   - scope:
-      #path: "/en/home"
       path: "pages/en"
     values:
       lang: en
