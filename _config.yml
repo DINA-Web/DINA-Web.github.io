@@ -3,8 +3,8 @@ title: DINA                        # Title in top navigation bar (navbar) and <h
 author: DINA Consortium                   # Used for copyright statement in footer
 baseurl: "/"                   # Only required if your site is in a directory e.g. https://username.github.io/sitename
                                         # which has url: "https://username.github.io" (no slash) and baseurl: "/sitename" (leading slash)
-url: https://dshorthouse.github.io
-repository: DINA-Web/new-dina-web.github.io
+url: https://dina-web.github.io
+repository: DINA-Web/dina-web.github.io
 
 # SOCIAL PROFILES
 social:
