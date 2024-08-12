@@ -19,9 +19,6 @@
     href: /de/consortium/how-to-join
   - text: FAQs
     href: /de/consortium/faq
-- text: Demo
-  href: https://demo.dina-project.net
-  new_window: true
 - text: Dokumentation
   menu: # Dropdown menu (one level deep only)
   - text: Für Nutzer:innen
