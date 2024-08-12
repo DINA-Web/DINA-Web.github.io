@@ -4,6 +4,8 @@
   href: /en/home
 - text: Consortium
   menu:
+  - text: About
+    href: /en/consortium/about
   - text: Mission & Vision
     href: /en/consortium/mission-vision
   - text: "---" # Divider to separate blocks of menu items (at least 3 "-")
