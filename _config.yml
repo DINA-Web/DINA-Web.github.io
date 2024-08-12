@@ -4,7 +4,7 @@ author: DINA Consortium                   # Used for copyright statement in foot
 baseurl: "/"                   # Only required if your site is in a directory e.g. https://username.github.io/sitename
                                         # which has url: "https://username.github.io" (no slash) and baseurl: "/sitename" (leading slash)
 url: https://dina-web.github.io
-repository: DINA-Web/dina-web.github.io
+repository: DINA-Web/DINA-Web.github.io
 
 # SOCIAL PROFILES
 social:
