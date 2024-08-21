@@ -90,4 +90,3 @@ Since 2006, the station has hosted a permanent team focused on taxonomic and eco
 #### Website
 
 [https://stationlinne.se](https://stationlinne.se)
-
