@@ -4,6 +4,8 @@
   href: /de/home
 - text: Konsortium
   menu:
+  - text: About
+    href: /de/consortium/about
   - text: Mission & Vision
     href: /de/consortium/mission-vision
   - text: "---" # Divider to separate blocks of menu items (at least 3 "-")
@@ -19,9 +21,6 @@
     href: /de/consortium/how-to-join
   - text: FAQs
     href: /de/consortium/faq
-- text: Demo
-  href: https://demo.dina-project.net
-  new_window: true
 - text: Dokumentation
   menu: # Dropdown menu (one level deep only)
   - text: Für Nutzer:innen
