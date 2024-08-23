@@ -3,6 +3,7 @@ title: "API Specifications"
 description: "OpenAPI Specifications for DINA Modules"
 permalink: /fr/docs/api-specs
 last_modified_at: 2024-08-22T14:48:26-04:00
+toc: true
 lang: fr
 ---
 
