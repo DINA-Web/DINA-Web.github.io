@@ -1,6 +1,6 @@
 ---
-title: "DINA Home"
-description: "DINA Consortium"
+title: "DINA Consortium"
+description: "A Digital Information System for Natural History Data"
 layout: home
 lang: en
 permalink: /en/home

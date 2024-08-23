@@ -3,6 +3,7 @@ title: "Members"
 description: "DINA Consortium"
 permalink: /en/consortium/members
 last_modified_at: 2023-02-16T11:59:26-04:00
+toc: true
 lang: en
 ---
 
@@ -22,7 +23,7 @@ Agriculture and Agri-Food Canada (AAFC) is the department of the Government of C
 
 Within its Science and Technology Branch, AAFC maintains collections of living and preserved biological material. These add up to circa 19 million physical holdings of insects, plants, fungi, bacteria, viruses and nematodes as well as plant and animal reproductive material. The data from these reference collections supports Canada's capacity for science-based decision-making by helping scientists identify new potential threats, better understand the origin, movement and migration patterns of pests and pathogens, and predict new potential pest threats that could emerge. They support research on pollinators and other beneficials, discovery of novel traits in crop relatives to enhance productivity, and the many other ecosystem services biodiversity provides at both macro and micro scales.
 
-#### Core Participants
+### Core Participants
 
 - James Macklin, Research Scientist: Botany and Biodiversity Informatics [International Steering Committee member]
 - Satpal Bilkhu, Senior Project Manager, Integrated Services Branch [Chair, Technical Committee]
@@ -35,19 +36,19 @@ Within its Science and Technology Branch, AAFC maintains collections of living a
 
 The Museum für Naturkunde (MfN) is one of eight research museums in the “Leibniz Association”, one of four large non-university research organizations in Germany. It is one of the most significant research institutions worldwide in biological and geo-scientific evolution research and biodiversity. Our research is collections-based and our collections comprise more than 30 million items relating to zoology, paleontology, geology and mineralogy, which have been compiled continuously for over 200 years and are highly significant for science as well as for the history of science. Thus, the MfN is an integrated research museum with strong national and international partnerships and networks and our public engagement is science-driven.
 
-#### Mission
+### Mission
 
 *Discovering and describing life and earth – with people, through dialogue.*
 
-#### Vision
+### Vision
 
 As an excellent research museum and innovative communication platform, we want to engage with and influence the scientific and societal discourse about the future of our planet – worldwide.
 
-#### Website
+### Website
 
 [https://www.naturkundemuseum-berlin.de](https://www.naturkundemuseum-berlin.de)
 
-#### Contacts
+### Contacts
 
 - Jana Hoffmann (DINA ISC)
 - Falko Glöckler (DINA TC)
@@ -66,7 +67,7 @@ Networking and open use of collection information is the core of the Übersee-Mu
 
 The Royal Botanic Garden Edinburgh (RBGE) was founded in the 17th century as a physic garden. Now it extends over four Gardens boasting a rich living collection of plants, and is a world-renowned centre for plant science and education. 
 
-#### Mission
+### Mission
 
 *"Exploring and explaining the world of plants for a better future"*
 
@@ -74,7 +75,7 @@ Without plants, there would be no life on earth. RBGE has been growing and study
 
 The RBGE is working with the DINA project as part of information technology and collections management solutions at RBGE.
 
-#### People involved
+### People involved
 
 - David Harris - Curator of the Herbarium
 - Elspeth Haston - Deputy Curator of the Herbarium
@@ -87,6 +88,6 @@ Station Linné is a research station on the island of Öland. The station was fo
 
 Since 2006, the station has hosted a permanent team focused on taxonomic and ecological research on insect faunas. It started with the Swedish Malaise Trap Project, which at the time was one of the most ambitious inventories of a national insect fauna that had ever been attempted. It used a large number of Malaise traps deployed across Sweden for three full years (2003-2006). In recent years, the Station has been a key partner in projects charting insect faunas using genetic analysis (DNA metabarcoding) of large numbers of Malaise trap samples. The Station hosts unique collections of taxonomically sorted material of poorly known insect groups from Malaise traps in Sweden, and Malaise trap samples that have gone through mild lysis and the content of which has been indexed through DNA metabarcoding. Station Linné is also organizing one of the first monitoring schemes for insects using continuous sampling with Malaise traps and DNA sequencing of the collected material.
 
-#### Website
+### Website
 
 [https://stationlinne.se](https://stationlinne.se)
