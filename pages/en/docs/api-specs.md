@@ -9,20 +9,20 @@ lang: en
 
 ## Agent
 
-[https://dina-web.github.io/agent-specs/](https://dina-web.github.io/agent-specs/)
+[https://www.dina-project.net/agent-specs/](https://www.dina-project.net/agent-specs/)
 
 ## Collection
 
-[https://dina-web.github.io/collection-specs/](https://dina-web.github.io/collection-specs/)
+[https://www.dina-project.net/collection-specs/](https://www.dina-project.net/collection-specs/)
 
 ## Loan Transaction
 
-[https://dina-web.github.io/loan-transaction-specs/](https://dina-web.github.io/loan-transaction-specs/)
+[https://www.dina-project.net/loan-transaction-specs/](https://www.dina-project.net/loan-transaction-specs/)
 
 ## Object Store
 
-[https://dina-web.github.io/object-store-specs/](https://dina-web.github.io/object-store-specs/)
+[https://www.dina-project.net/object-store-specs/](https://www.dina-project.net/object-store-specs/)
 
 ## Sequence
 
-[https://dina-web.github.io/sequence-specs/](https://dina-web.github.io/sequence-specs/)
+[https://www.dina-project.net/sequence-specs/](https://www.dina-project.net/sequence-specs/)
