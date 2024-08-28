@@ -1,6 +1,6 @@
 # DINA Website
 
-[https://www.dina-project.net/](https://www.dina-project.net/
+[https://www.dina-project.net/](https://www.dina-project.net/)
 
 ## Usage
 

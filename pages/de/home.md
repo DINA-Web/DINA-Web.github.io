@@ -1,10 +1,10 @@
 ---
-title: "DINA Home"
-description: "DINA Consortium"
+title: "DINA Consortium"
+description: "A Modular System to Manage Samples and Specimens in the Natural Sciences"
 layout: home
 permalink: /de/home
 lang: de
-last_modified_at: 2024-08-23T11:59:26-04:00
+last_modified_at: 2024-08-28T11:59:26-04:00
 ---
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1001642789?h=391d411fab" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
