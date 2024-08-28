@@ -1,6 +1,6 @@
 ---
 title: "DINA Consortium"
-description: "A Digital Information System for Natural History Data"
+description: "A Modular System to Manage Samples and Specimens in the Natural Sciences"
 layout: home
 lang: en
 permalink: /en/home
