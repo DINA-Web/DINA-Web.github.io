@@ -5,7 +5,7 @@ layout: home
 lang: en
 permalink: /en/home
 redirect_from: /
-last_modified_at: 2024-08-28T14:40:00-00:00
+last_modified_at: 2024-08-29T14:40:00-00:00
 ---
 
 Vision
@@ -15,11 +15,11 @@ Mission
 Our mission is to build and maintain an open-source, standards-based digital information system for the natural sciences where organizations and experts share in its development and success.
 
 DINA Samplistic Data Model
-<img width="694" alt="Samplistic_Model" src="https://github.com/user-attachments/assets/6ad4ec2d-2e63-49d2-b609-bd3a27a7558d">
+<img width="694" alt="Samplistic_Model" src="https://github.com/user-attachments/assets/6ad4ec2d-2e63-49d2-b609-bd3a27a7558d" class="img-fluid">
 Documents the complete object history and preserves links to derivatives and related material​
 
 Data Standards
-<img width="549" alt="DINA_standards" src="https://github.com/user-attachments/assets/86c4d0cf-00e1-43d3-9d0c-878e3feed538">
+<img width="549" alt="DINA_standards" src="https://github.com/user-attachments/assets/86c4d0cf-00e1-43d3-9d0c-878e3feed538" class="img-fluid">
 
 Provides standards compliant information management from Material Sample to derived data products (sequences, images, etc..)​
 
