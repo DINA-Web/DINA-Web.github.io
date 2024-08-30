@@ -9,7 +9,7 @@ last_modified_at: 2024-08-29T14:40:00-00:00
 ---
 
 <div class="border border-success border-2 rounded-2 mb-4">
-    <img width="100%" alt="Samplistic Model" src="https://github.com/user-attachments/assets/6ad4ec2d-2e63-49d2-b609-bd3a27a7558d" class="img-fluid mb-3">
+    <img width="100%" alt="Samplistic Model" src="{{ '/assets/theme/images/model.png' | relative_url }}" class="img-fluid mb-3">
     <div class="fs-5 bg-success text-white p-2">DINA's unique, "samplistic" design model traces complete object histories and preserves links to derivatives and related material​. Our mantra: <span class="fst-italic">Uniting data, accelerating discovery</span></div>
 </div>
 
@@ -20,8 +20,10 @@ Our vision is an interoperable digital information system for natural science th
 
 Our mission is to build and maintain an open-source, standards-based digital information system for the natural sciences where organizations and experts share in its development and success.
 
+<link rel="stylesheet" href="{{ '/assets/theme/css/main.css' | relative_url }}">
+
 <div class="border border-success border-2 rounded-2 mb-4 mt-4">
-    <img width="100%" alt="DINA Standards" src="https://github.com/user-attachments/assets/86c4d0cf-00e1-43d3-9d0c-878e3feed538" class="img-fluid">
+    <img width="100%" alt="DINA Standards" src="{{ '/assets/theme/images/standards.png' | relative_url }}" class="img-fluid">
     <div class="fs-5 bg-success text-white p-2">DINA is standards-compliant from metadata to material samples to their derived data products such as DNA sequences and multimedia.</div>
 </div>
 
