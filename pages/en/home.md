@@ -20,8 +20,6 @@ Our vision is an interoperable digital information system for natural science th
 
 Our mission is to build and maintain an open-source, standards-based digital information system for the natural sciences where organizations and experts share in its development and success.
 
-<link rel="stylesheet" href="{{ '/assets/theme/css/main.css' | relative_url }}">
-
 <div class="border border-success border-2 rounded-2 mb-4 mt-4">
     <img width="100%" alt="DINA Standards" src="{{ '/assets/theme/images/standards.png' | relative_url }}" class="img-fluid">
     <div class="fs-5 bg-success text-white p-2">DINA is standards-compliant from metadata to material samples to their derived data products such as DNA sequences and multimedia.</div>
