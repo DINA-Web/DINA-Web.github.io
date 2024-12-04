@@ -14,7 +14,7 @@ Currently the partner institutions of the DINA Consortium are:
 - Agriculture and Agri-Food Canada, Ottawa, CA (Core Member, founding member)
 - Museum fur Naturkunde, Berlin, DE (Core Member, founding member)
 - Übersee-Museum, Bremen, DE (Core Member)
-- Royal Botanical Garden, Edinburgh, UK (Associate Member, founding member)
+- Royal Botanic Garden Edinburgh, UK (Associate Member, founding member)
 - Station Linné, Färjestaden, SE (Associate Member)
 
 ## Agriculture and Agri-Food Canada
@@ -63,7 +63,7 @@ Since 2012, ethnographic and trade collections as well as the Historical Picture
 
 Networking and open use of collection information is the core of the Übersee-Museum's digital strategy.
 
-## Royal Botanical Garden
+## Royal Botanic Garden Edinburgh
 
 The Royal Botanic Garden Edinburgh (RBGE) was founded in the 17th century as a physic garden. Now it extends over four Gardens boasting a rich living collection of plants, and is a world-renowned centre for plant science and education. 
 
