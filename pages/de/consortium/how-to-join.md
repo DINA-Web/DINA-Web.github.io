@@ -7,7 +7,7 @@ toc: true
 lang: de
 ---
 
-Consider joining us in further developing DINA!
+Consider joining us in further developing DINA! Download the [DINA Memorandum of Understanding](/assets/documents/DINA_MoU.pdf).
 
 DINA is an open source project so your contributions and membership benefit a wide set of users and stakeholders.
 
