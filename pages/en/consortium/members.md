@@ -65,6 +65,7 @@ Since 2012, ethnographic and trade collections as well as the Historical Picture
 Networking and open use of collection information is the core of the Übersee-Museum's digital strategy.
 
 ## Senckenberg Society for Nature Research
+<img width="50%" alt="Logo Senckenberg" src="{{ '/assets/theme/images/logo-senckenberg.png' | relative_url }}" class="img-fluid">
 The Senckenberg – Leibniz Institution for Biodiversity and Earth System Research (SGN) was founded in 1817 by local citizens in Frankfurt under the name Senckenbergische Naturforschende Gesellschaft, which translates as Senckenberg Society of Nature Research. Today, it is one of the most important research institutions in the field of biodiversity and, with the Frankfurt House, one of the largest natural history museums in Europe. The SGN is the supporting body for seven research institutes and three natural history museums.
 
 With more than 45 million items, Senckenberg maintains the largest natural history collection in Germany. Senckenberg’s statutory obligations include to “maintain and develop collections as ‘archives of nature’ and to make them available to science as a research infrastructure”.
