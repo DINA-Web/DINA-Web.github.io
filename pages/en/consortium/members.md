@@ -14,6 +14,7 @@ Currently the partner institutions of the DINA Consortium are:
 - Agriculture and Agri-Food Canada, Ottawa, CA (Core Member, founding member)
 - Museum fur Naturkunde, Berlin, DE (Core Member, founding member)
 - Übersee-Museum, Bremen, DE (Core Member)
+- Senckenberg – Leibniz Institution for Biodiversity and Earth System Research, Frankfurt, DE (Core Member)
 - Royal Botanic Garden Edinburgh, UK (Associate Member, founding member)
 - Station Linné, Färjestaden, SE (Associate Member)
 
@@ -63,9 +64,28 @@ Since 2012, ethnographic and trade collections as well as the Historical Picture
 
 Networking and open use of collection information is the core of the Übersee-Museum's digital strategy.
 
+## Senckenberg – Leibniz Institution for Biodiversity and Earth System Research
+<img width="50%" alt="Logo Senckenberg" src="{{ '/assets/theme/images/logo-senckenberg.png' | relative_url }}" class="img-fluid">
+The Senckenberg – Leibniz Institution for Biodiversity and Earth System Research ("Senckenberg Gesellschaft für Naturforschung" - SGN) was founded in 1817 by local citizens in Frankfurt under the name Senckenbergische Naturforschende Gesellschaft, which translates to Senckenberg Society for Nature Research. Today, it is one of the most important research institutions in the field of biodiversity and, with the Frankfurt museum, one of the largest natural history museums in Europe. The SGN serves as the supporting body for seven research institutes and three natural history museums.
+
+With more than 45 million specimens, Senckenberg maintains the largest natural history collection in Germany. Its statutory obligations include "maintaining and developing collections as 'archives of nature' and making them available to science as a research infrastructure."
+
+Senckenberg's membership in the DINA consortium, along with its involvement in related projects like DiSSCo and OSIRIS, underlines its efforts to make its 45-million-specimen collection internationally and openly accessible through digitization.
+
+### Website
+
+[https://www.senckenberg.de/](https://www.senckenberg.de/)
+
+### Contacts
+
+- Claus Weiland  [International Steering Committee member]
+- Jonas Grieb [Technical Committee Chair]
+- Anke Penzlin
+- Karsten Wesche
+
 ## Royal Botanic Garden Edinburgh
 
-The Royal Botanic Garden Edinburgh (RBGE) was founded in the 17th century as a physic garden. Now it extends over four Gardens boasting a rich living collection of plants, and is a world-renowned centre for plant science and education. 
+The Royal Botanic Garden Edinburgh (RBGE) was founded in the 17th century as a physic garden. Now it extends over four Gardens boasting a rich living collection of plants, and is a world-renowned centre for plant science and education.
 
 ### Mission
 
