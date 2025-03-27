@@ -14,7 +14,7 @@ Currently the partner institutions of the DINA Consortium are:
 - Agriculture and Agri-Food Canada, Ottawa, CA (Core Member, founding member)
 - Museum fur Naturkunde, Berlin, DE (Core Member, founding member)
 - Übersee-Museum, Bremen, DE (Core Member)
-- Senckenberg Society for Nature Research, Frankfurt, DE (Core Member)
+- Senckenberg – Leibniz Institution for Biodiversity and Earth System Research, Frankfurt, DE (Core Member)
 - Royal Botanic Garden Edinburgh, UK (Associate Member, founding member)
 - Station Linné, Färjestaden, SE (Associate Member)
 
@@ -64,9 +64,9 @@ Since 2012, ethnographic and trade collections as well as the Historical Picture
 
 Networking and open use of collection information is the core of the Übersee-Museum's digital strategy.
 
-## Senckenberg Society for Nature Research
+## Senckenberg – Leibniz Institution for Biodiversity and Earth System Research
 <img width="50%" alt="Logo Senckenberg" src="{{ '/assets/theme/images/logo-senckenberg.png' | relative_url }}" class="img-fluid">
-The Senckenberg – Leibniz Institution for Biodiversity and Earth System Research (SGN) was founded in 1817 by local citizens in Frankfurt under the name Senckenbergische Naturforschende Gesellschaft, which translates to Senckenberg Society for Nature Research. Today, it is one of the most important research institutions in the field of biodiversity and, with the Frankfurt museum, one of the largest natural history museums in Europe. The SGN serves as the supporting body for seven research institutes and three natural history museums.
+The Senckenberg – Leibniz Institution for Biodiversity and Earth System Research ("Senckenberg Gesellschaft für Naturforschung" - SGN) was founded in 1817 by local citizens in Frankfurt under the name Senckenbergische Naturforschende Gesellschaft, which translates to Senckenberg Society for Nature Research. Today, it is one of the most important research institutions in the field of biodiversity and, with the Frankfurt museum, one of the largest natural history museums in Europe. The SGN serves as the supporting body for seven research institutes and three natural history museums.
 
 With more than 45 million specimens, Senckenberg maintains the largest natural history collection in Germany. Its statutory obligations include "maintaining and developing collections as 'archives of nature' and making them available to science as a research infrastructure."
 
@@ -80,6 +80,8 @@ Senckenberg's membership in the DINA consortium, along with its involvement in r
 
 - Claus Weiland  [International Steering Committee member]
 - Jonas Grieb [Technical Committee Chair]
+- Anke Penzlin
+- Karsten Wesche
 
 ## Royal Botanic Garden Edinburgh
 
