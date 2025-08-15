@@ -7,18 +7,18 @@ toc: true
 lang: de
 ---
 
-Consider joining us in further developing DINA! Download the [DINA Memorandum of Understanding](/assets/documents/DINA_MoU.pdf).
+Werden Sie Teil unserer Idee und helfen Sie uns dabei, DINA weiterzuentwickeln! Laden Sie hier das [DINA-Memorandum of Understanding](/assets/documents/DINA_MoU.pdf) herunter.
 
-DINA is an open source project so your contributions and membership benefit a wide set of users and stakeholders.
+DINA ist ein Open-Source-Projekt, sodass Ihre Beiträge und Ihre Mitgliedschaft einer Vielzahl von Nutzern und Interessengruppen zugutekommen.
 
-There are two types of members in the DINA Consortium: *Core Members* and *Associate Members*.
+Es gibt zwei Arten von Mitgliedern im DINA-Konsortium: *Kernmitglieder* und *assoziierte Mitglieder*.
 
-## Core Members
+## Kernmitglieder
 
-Core Members commit staff resources to the project (0.5 full-time equivalent) and are voting members on the [International Steering Committee](steering-committee) and [Technical Committee](technical-committee). The staff resources committed to the project must participate in the Technical Committee.
+Kernmitglieder stellen Personalressourcen für das Projekt zur Verfügung (0,5 Vollzeitäquivalente) und sind stimmberechtigte Mitglieder im [Internationalen Steering Committee](steering-committee) und im [Technischen Committee](technical-committee). Die für das Projekt bereitgestellten Personalressourcen müssen im Technischen Ausschuss mitwirken.
 
-## Associate Members
+## Assoziierte Mitglieder
 
-Associate Members participate as observers in the Iinternationl Steering Committee and Technical Committee, but are not voting members. A member may switch status given sufficient notice; in particular, a Core Member will be expected to finish its current Technical Committee-assigned task(s) before becoming an Associate Member.
+Assoziierte Mitglieder nehmen als Beobachter am Internationalen Steering Committee und am Technischen Ausschuss teil, sind jedoch keine stimmberechtigten Mitglieder. Ein Mitglied kann seinen Status nach ausreichender Vorankündigung wechseln; es wird von einem Kernmitglied erwartet, dass es seine derzeitigen, vom Technischen Ausschuss zugewiesenen Aufgaben abschließt, bevor es assoziiertes Mitglied wird.
 
-If you are interested in having your institution or project join the DINA Consortium, please study the DINA Memorandum of Understanding below and then contact one of the members of the DINA International Steering Committee.
+Wenn Sie daran interessiert sind, dass Ihre Einrichtung oder Ihr Projekt dem DINA-Konsortium beitritt, lesen Sie bitte die oben stehende DINA-Vereinbarung und wenden Sie sich dann an eines der Mitglieder des internationalen Lenkungsausschusses von DINA.
