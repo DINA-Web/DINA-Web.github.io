@@ -9,7 +9,6 @@
   - text: Mission & Vision
     href: /de/consortium/mission-vision
   - text: "---" # Divider to separate blocks of menu items (at least 3 "-")
-  - text: "Struktur und Steuerung" # Title for block of menu items
   - text: Steering Committee
     href: /de/consortium/steering-committee
   - text: Technical Committee
@@ -19,17 +18,11 @@
     href: /de/consortium/members
   - text: Wie kann ich beitreten?
     href: /de/consortium/how-to-join
-  - text: FAQs
-    href: /de/consortium/faq
 - text: Dokumentation
   menu: # Dropdown menu (one level deep only)
   - text: Für Nutzer:innen
     href: /de/docs/user-documentation
   - text: Für Entwickler:innen
     href: /de/docs/dev-documentation
-  - text: Für Administrator:innen
-    href: /de/docs/admin-documentation
-  - text: Installation
-    href: /de/docs/installation
   - text: API Specifikationen
     href: /de/docs/api-specs
