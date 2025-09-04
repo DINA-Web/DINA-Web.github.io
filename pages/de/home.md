@@ -1,10 +1,10 @@
 ---
-title: "DINA Consortium"
+title: "DINA Sample Management System"
 description: "A Modular System to Manage Samples and Specimens in the Natural Sciences"
 layout: home
-permalink: /de/home
 lang: de
-last_modified_at: 2024-08-28T11:59:26-04:00
+permalink: /de/home
+last_modified_at: 2025-09-04T13:57:26-04:00
 ---
 
 <div class="border border-success border-2 rounded-2 mb-4">
