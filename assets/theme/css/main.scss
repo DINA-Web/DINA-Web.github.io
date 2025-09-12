@@ -57,3 +57,8 @@ $enable-rounded: {% if site.rounded_corners != false %}true{% else %}false{% end
   @import "_team";              // Team members
 @import "_footer";              // Footer
 @import "_custom";              // Custom styling
+
+body > footer {
+  border-top: 5px solid #abd9ac;
+  color: #abd9ac;
+}
