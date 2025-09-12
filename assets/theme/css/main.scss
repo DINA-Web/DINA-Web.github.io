@@ -59,6 +59,27 @@ $enable-rounded: {% if site.rounded_corners != false %}true{% else %}false{% end
 @import "_custom";              // Custom styling
 
 body > footer {
-  border-top: 5px solid #abd9ac;
-  color: #abd9ac;
+  border-top: 5px solid $green-100;
+  color: $green-100;
+}
+
+h1.home {
+  font-size:5rem;
+}
+
+h2.home {
+  color: $green-600;
+  font-weight: bold;
+}
+
+p.mantra {
+  font-size: 3rem;
+  color: $green-100;
+  padding-bottom:1rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid $green-100;
+}
+
+p.home-lead {
+  font-size: 2rem;
 }
