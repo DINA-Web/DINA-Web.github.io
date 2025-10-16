@@ -50,8 +50,8 @@ As an excellent research museum and innovative communication platform, we want t
 
 ### Contacts
 
-- Jana Hoffmann (DINA ISC)
-- Falko Glöckler (DINA TC)
+- Christian Bölling
+- Mareike Petersen
 
 ## Übersee-Museum
 
@@ -65,7 +65,7 @@ Networking and open use of collection information is the core of the Übersee-Mu
 
 ## Royal Botanic Garden Edinburgh
 
-The Royal Botanic Garden Edinburgh (RBGE) was founded in the 17th century as a physic garden. Now it extends over four Gardens boasting a rich living collection of plants, and is a world-renowned centre for plant science and education. 
+The Royal Botanic Garden Edinburgh (RBGE) was founded in the 17th century as a physic garden. Now it extends over four Gardens boasting a rich living collection of plants, and is a world-renowned centre for plant science and education.
 
 ### Mission
 
