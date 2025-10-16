@@ -2,45 +2,46 @@
 title: "Mission & Vision"
 description: "DINA Consortium"
 permalink: /de/consortium/mission-vision
-last_modified_at: 2023-02-16T11:59:26-04:00
+last_modified_at: 2025-10-16T12:04:00-04:00
 lang: de
 toc: true
 ---
 
 ## Vision
 
-Our vision is an interoperable digital information system for natural science that advances research, conservation efforts, and public understanding of the natural world.
+Unsere Vision ist ein interoperables digitales Informationssystem für die Naturwissenschaften, das die Forschung, Naturschutzbemühungen und das öffentliche Verständnis der Natur fördert.
 
 ## Mission
 
-Our mission is to build and maintain an open-source, standards-based digital information system for the natural sciences where organizations and experts share in its development and success.
+Unsere Mission ist es, ein offenes, auf Standards basierendes digitales Informationssystem für die Naturwissenschaften aufzubauen und zu pflegen, an dessen Entwicklung und Erfolg sich Organisationen und Experten beteiligen.
 
-## What makes the DINA system unique?
+## Was macht das DINA-System einzigartig?
 
-### Integrated and Interoperable Data
+### Integrierte und interoperable Daten
 
-The DINA system provides tools and resources that enable the integration of diverse and heterogeneous data types, such as specimen records, species occurrences, environmental data, multimedia content, and other relevant data, into a modular and interoperable information system. This integration allows for a holistic approach for data management, data-driven research and conservation efforts in natural science organizations.
+Das DINA-System bietet Tools und Ressourcen, die die Integration verschiedener und heterogener Datentypen wie Sammlungsobjekte, Artenvorkommen, Umweltdaten, Multimedia-Inhalte und andere relevante Daten in ein modulares und interoperables Informationssystem ermöglichen. Diese Integration ermöglicht einen ganzheitlichen Ansatz für das Datenmanagement, datengestützte Forschung und Naturschutzbemühungen in naturwissenschaftlichen Organisationen.
 
-### Data Management Best Practices
+### Best Practices für das Datenmanagement
 
-The DINA system promotes best practices for data management, including quality assurance, standardization, sharing, and curation, which ensure the accuracy, reliability, and longevity of natural science data. This helps organizations and researchers effectively manage and curate their data, enhance its quality and its usability.
+Das DINA-System fördert Best Practices für das Datenmanagement, darunter Qualitätssicherung, Standardisierung, gemeinsame Nutzung und Kuratierung, die die Genauigkeit, Zuverlässigkeit und Langlebigkeit naturwissenschaftlicher Daten gewährleisten. Dies hilft Organisationen und Forschern, ihre Daten effektiv zu verwalten und zu kuratieren sowie deren Qualität und Nutzbarkeit zu verbessern.
 
 ### User-Centric Design
 
-The DINA consortium prioritizes user-centric design principles in the development of interfaces, search capabilities, and data entry, making it intuitive, user-friendly, and accessible to a wide range of users.
+Das DINA-Konsortium legt bei der Entwicklung von Schnittstellen, Suchfunktionen und Dateneingabe Wert auf benutzerorientierte Designprinzipien, um das System intuitiv, benutzerfreundlich und für ein breites Spektrum von Anwendern zugänglich zu machen.
 
-### Community Engagement and Capacity Building
 
-The DINA consortium actively engages with the natural science community, including museums, herbaria, botanical gardens, and collection holding organizations, and other stakeholders, through workshops, conferences, training programs, and collaborative projects. This fosters community engagement, knowledge exchange, and capacity building that empowers users to effectively manage collections.
+### Community Engagement und Capacity Building
 
-### Open-Source and Community-Driven Approach
+Das DINA-Konsortium arbeitet aktiv mit der Community der Biodiversitätswissenschaften zusammen, darunter Museen, Herbarien, botanische Gärten und Sammlungsorganisationen sowie andere Interessengruppen, und zwar im Rahmen von Workshops, Konferenzen, Schulungsprogrammen und Kooperationsprojekten. Dies fördert das Engagement der Gemeinschaft, den Wissensaustausch und den Kapazitätsaufbau, wodurch die Nutzer in die Lage versetzt werden, Sammlungen effektiv zu verwalten.
 
-The DINA system is a collaborative, open-source digital information system with a community-driven approach. This encourages active participation and contribution from the natural science community, promotes innovation, and allows for customization and adaptability to evolving technologies and data standards.
+### Open-Source- und gemeinschaftsorientierter Ansatz
 
-### Sustainability and Longevity
+Das DINA-System ist ein kollaboratives, quelloffenes digitales Informationssystem mit einem gemeinschaftsorientierten Ansatz. Dies fördert die aktive Beteiligung und Mitwirkung der naturwissenschaftlichen Gemeinschaft, treibt Innovationen voran und ermöglicht die Anpassung an neue Technologien und Datenstandards.
 
-The DINA consortium is committed to strategies that make certain the platform is sustainable and long-lasting. These include securing funding, establishing new partnerships and bolstering existing partnerships, and periodically reviewing its governance model. These foundations ensure that the solid pillars of development, maintenance, and availability uphold a reliable and enduring resource for natural science data management.
+### Nachhaltigkeit und Langlebigkeit
 
-## Our mantra
+Das DINA-Konsortium hat sich Strategien verschrieben, die die Nachhaltigkeit und Langlebigkeit der Plattform sicherstellen. Dazu gehören die Sicherung der Finanzierung, der Aufbau neuer Partnerschaften und die Stärkung bestehender Partnerschaften sowie die regelmäßige Überprüfung des Governance-Modells. Diese Grundlagen gewährleisten, dass die soliden Säulen der Entwicklung, Wartung und Verfügbarkeit eine zuverlässige und dauerhafte Ressource für das Management naturwissenschaftlicher Daten darstellen.
 
-*Uniting data, accelerating discovery.*
+## Unser Mantra
+
+*Daten vereinen, Entdeckungen beschleunigen.*
