@@ -51,8 +51,8 @@ As an excellent research museum and innovative communication platform, we want t
 
 ### Contacts
 
-- Jana Hoffmann (DINA ISC)
-- Falko Glöckler (DINA TC)
+- Christian Bölling
+- Mareike Petersen
 
 ## Übersee-Museum
 
