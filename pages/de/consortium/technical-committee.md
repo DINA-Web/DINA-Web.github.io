@@ -2,14 +2,14 @@
 title: "Technical Committee"
 description: "DINA Consortium"
 permalink: /de/consortium/technical-committee
-last_modified_at: 2023-02-16T11:59:26-04:00
+last_modified_at: 2025-12-17T17:13:01+0000
 lang: de
 ---
 
 Governance
 ----------
 
-Das ständige **Technical Committee** (**TC**) des **DINA-Konsortiums** (**DC**) koordiniert die Softwareentwicklung unter den DINA-Kernmitgliedern, um ein kohärentes Softwaresystem zu erstellen, das den Anforderungen und Bedürfnissen der Mitglieder entspricht. Jedes Kernmitglied wählt einen Vertreter für das TC und kann diesen jederzeit durch Mitteilung an das **Internationale Steering Committee** (**ISC**) ersetzen. Die folgenden Richtlinien sind dem [DINA Memorandum of Understanding](https://github.com/user-attachments/files/16746934/DINA__MoU.pdf) entnommen.
+Das ständige **Technical Committee** (**TC**) des **DINA-Konsortiums** (**DC**) koordiniert die Softwareentwicklung unter den DINA-Kernmitgliedern, um ein kohärentes Softwaresystem zu erstellen, das den Anforderungen und Bedürfnissen der Mitglieder entspricht. Jedes Kernmitglied wählt einen Vertreter für das TC und kann diesen jederzeit durch Mitteilung an das **Internationale Steering Committee** (**ISC**) ersetzen. Die folgenden Richtlinien sind dem [DINA Memorandum of Understanding](/assets/documents/DINA_MoU.pdf) entnommen.
 
 - 6.2 Unter Einhaltung der allgemeinen Richtlinien des ISC wird vom TC erwartet, dass es die langfristige Roadmap für die Systemarchitektur und die Technologieauswahl sowie die kurzfristige Koordination der Entwicklungsbemühungen verwaltet.
 - 6.3 Der TC wählt aus seinen Mitgliedern einen Vorsitzenden, der die Arbeit organisieren und dem ISC Bericht erstatten soll.
